@@ -1,2 +1,1 @@
-furiouspvp.github.io
-====================
+Always use gh-pages branch, NOT MASTER!!!
