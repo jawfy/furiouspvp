@@ -50,9 +50,9 @@ table {
 body {
   font-size: 1em;
   line-height: 1.5; 
-  background: #e7e7e7 url(../images/Cobble3.png) repeat 0 0;
+  background: #e7e7e7 url(../images/cobblestone.png) repeat 0 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  color: #BE0813;
+  color: #ffffff;
 }
 
 a {
