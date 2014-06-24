@@ -52,7 +52,7 @@ body {
   line-height: 1.5; 
   background: #e7e7e7 url(../images/cobblestone.png) repeat 0 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  color: #ffffff;
+  color: #888888;
 }
 
 a {
@@ -95,6 +95,8 @@ header h2 {
 .inner {
   width: 620px;
   margin: 0 auto;
+  background: white;
+  padding: 0 30px 0 30px;
 }
 
 #container .inner img {
