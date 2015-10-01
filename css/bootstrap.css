@@ -5015,6 +5015,15 @@ a.badge:focus {
   background-repeat:no-repeat;
   background-color: #FFFFFF;
 }
+.jumbotron404 {
+  padding: 180px;
+  text-align:center;
+  color: #FFF;
+  background-image:url(../bg.png);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
 .jumbotron0 {
   padding-top: 40px;
   padding-bottom: 30px;
