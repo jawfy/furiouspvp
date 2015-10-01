@@ -1411,7 +1411,7 @@ a.bg-danger:focus {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #fff;
 }
 ul,
 ol {
@@ -5018,16 +5018,18 @@ a.badge:focus {
 .jumbotron0 {
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-top:-60px;
   margin-bottom: 30px;
+  background-color:#2F2F2F;
   color: inherit;
-  background-color: #eee;
 }
 .jumbotron1 {
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-top:-60px;
   margin-bottom: 30px;
+  background-color:#626262;
   color: inherit;
-  background-color: #eee;
 }
 .jumbotron2 {
   padding-top: 30px;
@@ -5554,7 +5556,6 @@ button.list-group-item-danger.active:focus {
 }
 .panel-footer {
   padding: 10px 15px;
-  background-color: #f5f5f5;
   border-top: 1px solid #ddd;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
