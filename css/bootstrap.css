@@ -5008,7 +5008,10 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   text-align:center;
-  color: #424242;
+  color: #FFF;
+  background-image:url(../bg.png);
+  background-position:center;
+  background-repeat:no-repeat;
   background-color: #FFFFFF;
 }
 .jumbotron0 {
