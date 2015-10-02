@@ -5026,10 +5026,11 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding:90px;
-  padding-top: 30px;
+  padding:0px;
+  padding-top: -100px;
   padding-bottom: 100px;
   margin-bottom: 30px;
+  margin-top:-5000px;
   text-align:center;
   color: #FFF;
   margin-top:50px;
