@@ -5026,16 +5026,16 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding:100px;
-  padding-top: 100px;
+  padding:90px;
+  padding-top: 30px;
   padding-bottom: 100px;
-  margin-bottom: -30px;
+  margin-bottom: 30px;
   text-align:center;
   color: #FFF;
   margin-top:50px;
 }
 .jumbotron404 {
-  padding: 180px;
+  padding: 150px;
   text-align:center;
   color: #FFF;
   background-image:url(../bg.png);
@@ -5044,11 +5044,12 @@ a.badge:focus {
   background-repeat:no-repeat;
 }
 .jumbotron0 {
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  text-align: center;
+  padding-bottom: 0px;
   margin-top:-60px;
   margin-bottom: 30px;
-  background-color:#2F2F2F;
+  background-color:#FFFFFF;
   color: inherit;
 }
 .jumbotron1 {
