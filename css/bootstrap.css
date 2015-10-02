@@ -13,7 +13,7 @@ body {
   margin: 0;
 }
 .heading-with-background-header {
-	background: black;
+	background: #3c3c3c;
 	display: table;
 	padding: 15px 20px;
 	font-size: 1xpx;
@@ -23,7 +23,7 @@ body {
 	margin: 0 auto;
 }
 .heading-with-background-header1 {
-	background: black;
+	background: #3c3c3c;
 	display: table;
 	padding: 15px 20px;
 	font-size: 1xpx;
