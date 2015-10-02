@@ -5053,11 +5053,12 @@ a.badge:focus {
   color: inherit;
 }
 .jumbotron1 {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  text-align:center;
+  padding-bottom: 0px;
   margin-top:-60px;
   margin-bottom: 30px;
-  background-color:#626262;
+  background-color:#D5D5D5;
   color: inherit;
 }
 .jumbotron2 {
