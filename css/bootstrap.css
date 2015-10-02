@@ -3056,9 +3056,10 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: white;
+  background-color: transparent;
+  border-color: #fff;
+  border-width: 1px;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -5007,7 +5008,7 @@ a.badge:focus {
   padding:100px;
   padding-top: 100px;
   padding-bottom: 100px;
-  margin-bottom: 30px;
+  margin-bottom: -30px;
   text-align:center;
   color: #FFF;
   background-image:url(../bg.png);
