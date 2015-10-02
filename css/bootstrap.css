@@ -5011,10 +5011,7 @@ a.badge:focus {
   margin-bottom: -30px;
   text-align:center;
   color: #FFF;
-  background-image:url(../bg.png);
-  background-position:center;
-  background-repeat:no-repeat;
-  background-color: #FFFFFF;
+  margin-top:50px;
 }
 .jumbotron404 {
   padding: 180px;
