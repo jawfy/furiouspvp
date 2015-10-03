@@ -12,6 +12,16 @@ html {
 body {
   margin: 0;
 }
+.heading-with-background-header1 {
+	background: #3c3c3c;
+	display: table;
+	padding: 15px 20px;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
 article,
 aside,
 details,
