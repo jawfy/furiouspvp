@@ -20,9 +20,6 @@
     
     <!--Animations CSS-->
     <link href="css/animate.css" rel="stylesheet">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,44 +35,51 @@
       body {
         font-family: 'Raleway', sans-serif;
       }
-	  .header1 {
-	  	font-family: 'Leckerli One', sans-serif;
+      body {
+        background-color: #2c3e50;
+        background-size: cover;
       }
-	  .para1 {
+	  .styleh1 {
+	  	font-family: 'Leckerli One', sans-serif;
+        font-size: 500px;
+      }
+	  .para1, h4 {
 		font-family: 'Raleway', sans-serif;
+        font-style: 
 	  }
-	  .navbar{
-		  background-color:#3c3c3c;
-		  border-bottom:none;
-		  color:white;
-		  }
-	  .nav {color:#FFF;}
+
+      </style>
 	  
-	  .nav
+<style type="text/css"></style>
+</head>
 
-<style type="text/css"></style></head>
-
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" style="background-color: #2c3e50;">
 
     <!-- Intro Section -->
-    <section id="intro" class="intro-section" style="background-image:url(bg.png); background-position:center;color:white;">
-        <div class="container">
+    <section id="intro" class="intro-section" style="background-color: #2c3e50;color:white;">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-16">
-                	<div class="header1">
-                    	<h1 style="font-size:120px;">Welcome</h1>
-                    <div class="para1">
-                        <p class="heading-with-background-header1" style="font-size:12px; text-align:center;">Website developer - Graphics Designer - Plugin Developer</p>
-                        <br>
-                    	<a class="btn btn-default btn-lg page-scroll" href="blog.html" style="background-color:transparent; color:white;">MORE INFORMATION</a>
-                    </div>
+                <div class="col-lg-12">
+                    <div class="styleh1 animated fadeInLeft" style="-webkit-animation-delay:0.5s;">
+                        <h1 style="font-size:72px;"><span>Jack Earsman</span></h>
+                        </div>
+
+                        <hr style="background-color:transparent;outline:none;border:none;">
+
+                        <h4 style="font-style:italic;-webkit-animation-delay:1.8s;background: #2980b9;display: table;padding: 15px 20px;font-size: 12px;font-weight: 400;letter-spacing: 3px;text-transform: uppercase;margin: 0 auto;" class="animated fadeInUp">Currently Under maintenance</h4>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <p class="animated fadeInDown" style="font-size:12px; letter-spacing:1px;margion: 0 auto; display table; text-align:center;color:white;text-transform: uppercase;-webkit-animation-delay:2.5s;">Please stay upto date with the websites development <a href="blog.html" style="color:#bdc3c7">here</a>.</p>
+        </div>
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
