@@ -15,7 +15,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./blog_files/blog.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -30,17 +30,22 @@
     }
     body {
       font-family: 'Indie Flower', cursive;
+	  background-color:#3c3c3c;
+	  color:white;
     }
     .blog-post-title {
       font-family: 'Leckerli One', serif;
+	  font-size:30px;
+	  color:#FFFFFF;
     }
     .blog-post {
       font-family: 'Indie Flower', cursive;
-      font-size: 18px;
+	  font-size:18px;
+	  color:#D1D1D1;
     }
     .blog-description {
       font-family: 'Indie Flower', cursive;
-      font-size: 20px;
+	  color:#D1D1D1;
     }
     .blog-title {
       font-family: 'Leckerli One', serif;
@@ -48,6 +53,16 @@
     h4 {
       font-family: 'Indie Flower', cursive;
     }
+	a {
+		color: #FFFFFF;	
+		}
+		
+	h4 {
+		color:white;
+		}
+    ol {
+		color:#D1D1D1;
+		}
 
     </style>
 
@@ -59,8 +74,18 @@
   </head>
 
   <body>
-
-    <div class="container">
+  
+  <div class="container">
+  
+  
+  <br>
+  <br>
+    	<div class="col-lg-12" style="text-align:center;">
+        	<h1 style="font-family: 'Leckerli One', sans-serif;font-size:50px;">Welcome <span>To My</span> <span>Blog</span></span></h1>
+           	<br>
+            <br>
+            <br>
+       	</div>
 
       <div class="blog-header">
         <h1 class="blog-title">Most Recent Posts</h1>
@@ -73,21 +98,21 @@
 
           <div class="blog-post">
             <h2 class="blog-post-title">Contact Form.</h2>
-            <p class="blog-post-meta">October 2, 2015 by <a href="http://getbootstrap.com/examples/blog/#">Jack Earsman</a></p>
+            <p class="blog-post-meta">October 2, 2015 by <a href="https://twitter.com/JackEarsmanBlog">Jack Earsman</a></p>
 
             <p>Well... basically I will be adding a form into the website. This is where you need to go if you would like a website, graphics or a plugin designed and developed for you. This is toatly free and don't charge a thing.</p>
             <hr>
 
           <div class="blog-post">
             <h2 class="blog-post-title">Domain Linked.</h2>
-            <p class="blog-post-meta">October 1, 2015 by <a href="http://getbootstrap.com/examples/blog/#">Greg Cooper</a></p>
+            <p class="blog-post-meta">October 1, 2015 by <a href="https://twitter.com/Awfy">Greg Cooper</a></p>
 
             <p>Finally! We have succsesfully linked the domain jackearsman.com up to the website, this is to grant ease of access rather than typing in a long sub domain! Happy surfing.</p>
             <hr>
             
           <div class="blog-post">
             <h2 class="blog-post-title">Development Started.</h2>
-            <p class="blog-post-meta">September 28, 2015 by <a href="http://getbootstrap.com/examples/blog/#">Jack Earsman</a></p>
+            <p class="blog-post-meta">September 28, 2015 by <a href="https://twitter.com/JackEarsmanBLOG">Jack Earsman</a></p>
 
             <p>Finally! I have started the development of my official site, JackEarsman. This site is for you as a consumer to order a free website, graphics or a plugin from me with all the details you want and I will start as soon as possible.</p>
             <hr>
@@ -98,9 +123,9 @@
           <div class="sidebar-module">
             <h4>Find Me Here</h4>
             <ol class="list-unstyled">
-              <li><a href="https://github.com/jawfy">GitHub</a></li>
-              <li><a href="https://twitter.com/JackEarsmanBLOG">Twitter</a></li>
-              <li><a href="https://www.facebook.com/JackEarsmanpage">Facebook</a></li>
+              <li><a href="https://github.com/jawfy" style="color:#D1D1D1;">GitHub</a></li>
+              <li><a href="https://twitter.com/JackEarsmanBLOG" style="color:#D1D1D1;">Twitter</a></li>
+              <li><a href="https://www.facebook.com/JackEarsmanpage" style="color:#D1D1D1;">Facebook</a></li>
             </ol>
           </div>
         </div><!-- /.blog-sidebar -->
@@ -108,13 +133,6 @@
       </div><!-- /.row -->
 
     </div><!-- /.container -->
-
-    <footer class="blog-footer">
-      <p>&copy; JackEarsman, 2015 Blog.</p>
-      <p>
-        <a href="#">Return To Top</a>
-      </p>
-    </footer>
 
 
     <!-- Bootstrap core JavaScript
