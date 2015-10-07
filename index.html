@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
 
-	<!--COPYRIGHT OF JACK EARSMAN, CODED AND DEVELOPED-->
-
+<head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>JackEarsman - Website Developer - Graphic Designer - Spigot Plugin Coder</title>
+    <title>Scrolling Nav - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -18,8 +17,15 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     
-    <!--Animations CSS-->
-    <link href="css/animate.css" rel="stylesheet">
+    <!-- Responsive Links -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+    
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,70 +34,157 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
-    <link href='https://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700' rel='stylesheet' type='text/css'>
-    <style>
-      body {
-        font-family: 'Raleway', sans-serif;
-      }
-	  .styleh1 {
-	  	font-family: 'Leckerli One', sans-serif;
-        font-size: 500px;
-      }
-	  .para1, h4 {
-		font-family: 'Raleway', sans-serif;
-        font-style: 
-	  }
-	  .button1 {
-		  font-family: 'Raleway', sans-serif;
-		  background-color:transparent;
-		  outline-color:white;
-		  color:white;
-		  text-transform:uppercase;
-		  letter-spacing:1px;
-		  }
-
-      </style>
-	  
-<style type="text/css"></style>
 </head>
 
-<!--style="background-color: #2c3e50;"-->
+<!-- Custom CSS -->
+<style>
+
+	body {
+		background-image: url(bg.png);
+		font-family: 'Raleway', sans-serif;
+		text-transform: uppercase;
+		}
+	.feature1{
+		font-family: 'Open Sans', sans-serif;
+		}
+		
+	h4 {
+		font-family: 'Open Sans', sans-serif;
+		}
+	
+	.header-with-background-header {
+		background: #3c3c3c;
+		display: table;
+		padding: 15px 20px;
+		font-size: 12px;
+		color:#FFF;
+		font-weight: 400;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		margin: 0 auto;
+		margin-bottom:20px;
+		}
+	.logo-text {
+		font-family: 'Leckerli One', cursive;
+		color: #FFFFFF;
+		}
+	.logo-text-header {
+		font-family: 'Leckerli One', cursive;
+		color: #FFFFFF;
+		font-size: 90px;
+		text-transform:none;
+		}
+	.navbar-brand {
+		font-family: 'Leckerli One', cursive;
+		text-transform:none; 
+		}
+</style>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top" style="color:white; font-size:25px;">JackEarsman</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-left" style="float:left;">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                    	<a class="page-scroll" href="#intro">HOME</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">ABOUT ME</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">FEATURES</a>
+                    </li>
+    </nav>
+
     <!-- Intro Section -->
-    <section id="intro" class="intro-section" style="color:white;">
-        <div class="container-fluid">
+    <section id="intro" class="intro-section">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="styleh1 animated fadeInLeft" style="-webkit-animation-delay:0.5s;">
-                        <h1 style="font-size:72px;"><span>Jack Earsman</span></h>
-                        </div>
+                    <h1 class="logo-text-header">Jack <span>Earsman</span></h1>
+                    <p class="header-with-background-header"> <</>/> Developer - Design Artist <</>/> </p>
+                    <a class="btn btn-default btn-lg page-scroll" href="#about" style="background-color:transparent;outline-color:white; color:white;">More Information</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                        <hr style="background-color:transparent;outline:none;border:none;">
-
-                        <h4 style="font-style:italic;-webkit-animation-delay:1.8s;background:#3c3c3c;display: table;padding: 15px 20px;font-size: 12px;font-weight: 400;letter-spacing: 3px;text-transform: uppercase;margin: 0 auto; margin-top:-5px; margin-bottom:-8px;" class="animated fadeInUp">Currently Under maintenance</h4>
-                        
-                        <br>
-                        <br>
-                        
-                        <!--Button-->
-                        <div class="button1 animated fadeInUp" style="-webkit-animation-delay:2.8s;">
-                        	<button class="btn btn-default" style="font-family: 'Raleway', sans-serif;background-color:transparent;outline-color:white;"><a href="blog.html" style="text-transform:uppercase;letter-spacing:2px;color:white;">MORE INFORMATION</a></button>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>ABOUT ME</h1>
+                    <hr style="width:100px; outline:none; background-color:#3c3c3c; border-color:#3c3c3c;">
+                    <h4 style="color:#787878;">Hello, my name is Jack Earsman. I am a 14 year old developer and graphics designer. I started off creating graphics for people and friends. My attention to grapghics started to reduce as I was learning HTML and the ways in which you can develop a website, this all came around as my big brother is a web developer for Stripe in San Fransisco. He was the one who inspired me to start learning and carry on to develop in his footsteps.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+	<!-- Services Section-->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>FEATURES</h1>
+                    <hr style="width:100px; outline:none; background-color:#ffffff; border-color:#ffffff;">
+                    <br>
+                    	<div class="row">
+                    		<div class="container">
+                        			<div class="col-md-4">
+                                    	<div class="feature1">
+                                        	<span class="glyphicon glyphicon-pencil" style="font-size:35px;" aria-hidden="true"></span>
+                            				<h2>DESIGN</h2>
+                                            <h4 style="color:#787878;">My websites are desined to look clean, 2D and professional.</h4>
+                                        </div>
+                        			</div>
+                                    <div class="col-md-4">
+                                    	<div class="feature1">
+                                        	<span class="glyphicon glyphicon-user" style="font-size:35px;" aria-hidden="true"></span>
+                            				<h2>SUPPORT</h2>
+                                            <h4 style="color:#787878;">I always let you as the consumer get involved, with my support.</h4>
+                                        </div>
+                        			</div>
+                                    <div class="col-md-4">
+                                    	<div class="feature1">
+                                        	<span class="glyphicon glyphicon-flash" style="font-size:35px;" aria-hidden="true"></span>
+                            				<h2>TIME SCALE</h2>
+                                            <h4 style="color:#787878;">I always try to keep you happy, by finishing my work between 1 to 2 weeks.</h4>
+                                        </div>
+                        			</div>
+                    		</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-    <!--FOOTER-->
-    <footer class="footer">
-        <div class="container">
-            <p class="animated fadeInDown" style="font-size:12px; letter-spacing:1px;margion: 0 auto; display table; text-align:center;color:white;text-transform: uppercase;-webkit-animation-delay:3.5s;color:#b6b6b6;">Please stay upto date with the websites development <a href="blog.html" style="color:#FFFFFF">here</a>.</p>
+    
+    <footer class="footer" style="background-color:white;">
+    	<div class="container">
+        	<div class="text-muted">
+            	<h4 style="text-transform:none; text-align:center; padding:15px; margin-bottom: -1px;">&copy; of JackEarsman.com, 2015. Coded by Jack Earsman.</h4>
+            </div>
         </div>
     </footer>
 
@@ -105,7 +198,6 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
 
+</body>
 
-
-
-</body></html>
+</html>
