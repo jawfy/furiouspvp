@@ -4867,6 +4867,12 @@ a.badge:focus {
   color: #3c3c3c;
   background-color: #FFFFFF;
 }
+.stats1 {
+  padding: 30px 25px;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+  background-color: #3C3C3C;
+}
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;

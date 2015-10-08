@@ -39,10 +39,25 @@ html {
     text-align: center;
     background: #fff;
 }
+.stats-section {
+	padding:150px;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
 
 .services-section {
     padding:150px;
 	background-image: url(../bg1.png);
+	background-position:center;
+	background-size:cover;
+    padding-top: 150px;
+    text-align: center;
+	color:white;
+}
+
+.email-section {
+    padding:150px;
 	background-position:center;
 	background-size:cover;
     padding-top: 150px;
