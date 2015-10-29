@@ -1,269 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>JackEarsman // Blog</title>
 
-    <title>JackEarsman // Home Page</title>
-
-    <!-- Bootstrap Core CSS -->
+    <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-    
-    <!-- Responsive Links -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/bootstrap-responsive.css" rel="stylesheet">
     
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,300,600,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,800,700italic,700,600italic,600,400italic,300italic' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-</head>
-
-<!-- Custom CSS -->
-<style>
-
-	body {
-		background-image: url(bg.png);
-		background-position:center;
-		font-family: 'Raleway', sans-serif;
-		text-transform: uppercase;
+    
+    <style>
+		body, .jumbo1, .jumbotron {
+			background-color: #ededed;
+			}
+			
+		html {
+			overflow: auto;
 		}
-	.feature1{
-		font-family: 'Open Sans', sans-serif;
+		body {
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			bottom: 20px;
+			right: 20px;
+			padding: 30px; 
+			overflow-y: scroll;
+			overflow-x: hidden;
 		}
 		
-	h4 {
-		font-family: 'Open Sans', sans-serif;
+		/* Let's get this party started */
+		::-webkit-scrollbar {
+			width: 3px;
 		}
-	
-	.header-with-background-header {
-		background: #3c3c3c;
-		display: table;
-		padding: 15px 20px;
-		font-size: 12px;
-		color:#FFF;
-		font-weight: 400;
-		letter-spacing: 3px;
-		text-transform: uppercase;
-		margin: 0 auto;
-		margin-bottom:20px;
+		 
+		/* Track */
+		::-webkit-scrollbar-track {
+			-webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3); 
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
 		}
-	.logo-text {
-		font-family: 'Leckerli One', cursive;
-		color: #FFFFFF;
+		 
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+			-webkit-border-radius: 5px;
+			border-radius: 1px;
+			background: #000; 
+			-webkit-box-shadow: inset 0 0 6px #000000; 
 		}
-	.logo-text-header {
-		font-family: 'Leckerli One', cursive;
-		color: #FFFFFF;
-		font-size: 90px;
-		text-transform:none;
+		::-webkit-scrollbar-thumb:window-inactive {
+			background: #000; 
 		}
-	.navbar-brand {
-		font-family: 'Leckerli One', cursive;
-		text-transform:none; 
-		}
-	.header-text {
-		font-family: 'Raleway', sans-serif;
-		text-transform: uppercase;
-		font-size: 50px;
-		margin: 0;
-		margin-top: 0;
-		margin-bottom: 0;
-		}
-</style>
-
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top" style="color:white; font-size:25px;">JackEarsman</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-left" style="float:left;">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                    	<a class="page-scroll" href="#intro">HOME</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">ABOUT ME</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">FEATURES</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#stats">STATISTICS</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#email">CONTACT</a>
-                    </li>
-    </nav>
-
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="logo-text-header">Jack <span>Earsman</span></h1>
-                    <p class="header-with-background-header"> <</>/> Developer - Design Artist <</>/> </p>
-                    <a class="btn btn-default btn-lg page-scroll" href="#about" style="background-color:transparent;outline-color:white; color:white;">More Information</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>ABOUT ME</h1>
-                    <hr style="width:100px; outline:none; background-color:#3c3c3c; border-color:#3c3c3c;">
-                    <h4 style="color:#787878;">Hello, my name is Jack Earsman. I am a 14 year old developer and graphics designer. I started off creating graphics for people and friends. My attention to grapghics started to reduce as I was learning HTML and the ways in which you can develop a website, this all came around as my big brother is a web developer for Stripe in San Fransisco. He was the one who inspired me to start learning and carry on to develop in his footsteps.</h4>
-                </div>
-            </div>
-        </div>
-    </section>
+    </style>
     
-	<!-- Services Section-->
-    <section id="services" class="services-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>FEATURES</h1>
-                    <hr style="width:100px; outline:none; background-color:#ffffff; border-color:#ffffff;">
+  </head>
+  <body>
+    <div class="jumbotron">
+    
+    <div class="container">
+      <div class="row jumbo1">
+        <div class="col-lg-4">
+          <img class="img-circle" src="https://scontent.fman1-1.fna.fbcdn.net/hphotos-xaf1/t31.0-8/q84/p960x960/10926773_849498835071608_6082793424806286538_o.jpg" alt="Generic placeholder image" style="position: static;" width="140" height="140">
+        </div><!-- /.col-lg-4 -->
+      </div>
+    <div class="container">
+        <div class="col-lg-12">
+            <h1 style="text-align: center;">Jack Earsman</h1>
+            
+            <hr style="border-color: #eee; width: 500px;">
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="container blog">
+            	<div class="col-lg-12">
+                	<h3 style="font-family: 'Open Sans', sans-serif;">Redesign?</h3>
+                    <h4>I've been thinking over the last couple days that I should really work harder to re-create my website. I have a few ideas from surfing other websites and from other designs. Shall I give it a go?</h4>
                     <br>
-                    	<div class="row">
-                    		<div class="container">
-                        			<div class="col-md-4">
-                                    	<div class="feature1">
-                                        	<span class="glyphicon glyphicon-pencil" style="font-size:35px;" aria-hidden="true"></span>
-                            				<h2>DESIGN</h2>
-                                            <h4 style="color:#787878;">My websites are desined to look clean, 2D and professional.</h4>
-                                        </div>
-                        			</div>
-                                    <div class="col-md-4">
-                                    	<div class="feature1">
-                                        	<span class="glyphicon glyphicon-user" style="font-size:35px;" aria-hidden="true"></span>
-                            				<h2>SUPPORT</h2>
-                                            <h4 style="color:#787878;">I always let you as the consumer get involved, with my support.</h4>
-                                        </div>
-                        			</div>
-                                    <div class="col-md-4">
-                                    	<div class="feature1">
-                                        	<span class="glyphicon glyphicon-flash" style="font-size:35px;" aria-hidden="true"></span>
-                            				<h2>TIME SCALE</h2>
-                                            <h4 style="color:#787878;">I always try to keep you happy, by finishing my work between 1 to 2 weeks.</h4>
-                                        </div>
-                        			</div>
-                    		</div>
-                        </div>
-                    </div>
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"><a> JackEarsman</a> 28/9/15</span> <span class="glyphicon glyphicon-heart" aria-hidden="true" style="float:right;"></span>
                 </div>
             </div>
-        </div>
-    </section>
-    
-        <section id="stats" class="stats-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>STATISTICS</h1>
-                    <hr style="width:100px; outline:none; background-color:#ffffff; border-color:#ffffff;">
+            
+            <div class="container blog">
+            	<div class="col-lg-12">
+                	<h3 style="font-family: 'Open Sans', sans-serif;">Simple Code?</h3>
+                    <h4>Now if you're like me and love a clean designed website, then I have a few tips. I love using a source called "bootstrap" it great! Compiles a whole bunch of css and javascrip all ready for you to use and speed up your workflow. I would recommend bootstrap for developers young or starting off as I helps get a grasp of web design.</h4>
                     <br>
-                    	<div class="row">
-                    		<div class="container">
-                        			<div class="col-md-4">
-                                    	<div class="stats1">
-                                        	<span class="glyphicon glyphicon-file" style="font-size:35px;" aria-hidden="true"></span>
-                            				<h2>WEBSITES MADE</h2>
-                                            <h4 style="color:#BDBDBD;">15 WEBSITES MADE</h4>
-                                        </div>
-                        			</div>
-                                    <div class="col-md-4">
-                                    	<div class="stats1">
-                                        	<span class="glyphicon glyphicon-heart" style="font-size:35px;" aria-hidden="true"></span>
-                            				<h2>HAPPY CUSTOMERS</h2>
-                                            <h4 style="color:#BDBDBD;">15 HAPPY CUSTOMERS</h4>
-                                        </div>
-                        			</div>
-                                    <div class="col-md-4">
-                                    	<div class="stats1">
-                                        	<span class="glyphicon glyphicon-pencil" style="font-size:35px;" aria-hidden="true"></span>
-                            				<h2>TEMPLATES MADE</h2>
-                                            <h4 style="color:#BDBDBD;">7 TEMPLATES MADE</h4>
-                                        </div>
-                        			</div>
-                    		</div>
-                        </div>
-                    </div>
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"><a> JackEarsman</a> 29/9/15</span> <span class="glyphicon glyphicon-heart" aria-hidden="true" style="float:right;"></span>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <!-- Email Section -->
-    <section id="email" class="email-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                	<span class="glyphicon glyphicon-envelope" style="font-size:60px; width:550px;" aria-hidden="true"></span>
-                    <div class="header-text">ME@JACKEARSMAN.COM</div>
+            
+            <div class="container blog">
+            	<div class="col-lg-12">
+                	<h3 style="font-family: 'Open Sans', sans-serif;">Animations!!!</h3>
+                    <h4>If you have been around for a while then you will of heard of Animate.css, it takes the tedious process of keyframing out of the picture for developers and makes it a fun and short process.</h4>
+                    <br>
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"><a> JackEarsman</a> 29/9/15</span> <span class="glyphicon glyphicon-heart" aria-hidden="true" style="float:right;"></span>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    
-    <footer class="footer" style="background-color:white;">
-    	<div class="container">
-        	<div class="text-muted">
-            	<h4 style="text-transform:none; text-align:center; padding:25px; margin-bottom: -1px;">&copy; <b>JackEarsman</b>, 2010 | <a class="page-scroll" href="#page-top" style="color:#787878;">Return To Top</a>.</h4>
+            
+            <div class="container blog">
+            	<div class="col-lg-12">
+                	<h3 style="font-family: 'Open Sans', sans-serif;">YouTube Startup!</h3>
+                    <h4>So, I'm getting kinda board just sitting around coding when I need to and have no one to speak to and no music, so I'm thinking on starting up a youtube channel such as timelapses, tutorials and much more. Intrested if so hit that faviroute button!</h4>
+                    <br>
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"><a> JackEarsman</a> 28/9/15</span> <span class="glyphicon glyphicon-heart" aria-hidden="true" style="float:right;"></span>
+                </div>
             </div>
+            
+            <div class="container blog">
+            	<div class="col-lg-12">
+                	<h3 style="font-family: 'Open Sans', sans-serif;">Twitter Now Avalible!</h3>
+                    <h4>Finally, I have had the spare time to create a twitter you can visit my twitter here @ https://twitter.com/jackearsmanblog</h4>
+                    <br>
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"><a> JackEarsman</a> 28/9/15 </span> <span class="glyphicon glyphicon-file" aria-hidden="true" style="float:left;"> http://twitter.com/jackearsmanblog<a style="color:white;">s</a></span> <span class="glyphicon glyphicon-heart" aria-hidden="true" style="float:right;"></span>
+                </div>
+            </div>
+            
         </div>
-    </footer>
+    </div>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-
-</body>
-
+  </body>
 </html>
