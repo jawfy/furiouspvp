@@ -5018,6 +5018,14 @@ a.badge:focus {
   color: inherit;
   background-color: #fff;
 }
+.info {
+  display: block;
+  padding: 20px 15px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: white;
+  color: black;
+}
 .jumbo1 {
   padding-top: 10px;
   padding-bottom: 10px;
