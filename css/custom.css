@@ -31,6 +31,20 @@ body {
     background-color: #258de5;
     border-bottom: 5px solid #2d78b8;
 }
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
 }
 .block1 {
   padding-top: 10px;
