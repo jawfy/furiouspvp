@@ -5015,6 +5015,13 @@ a.badge:focus {
   color: inherit;
   background-color: #fff;
 }
+.jumbotron1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
 .me {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -5026,16 +5033,16 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: inherit;
+  color: black;
   background-color: #eee;
 }
 
 .blog {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
   color: inherit;
-  background-color: #fff;
+  background-color: #eee;
 }
 .info {
   display: block;

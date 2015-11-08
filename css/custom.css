@@ -13,10 +13,16 @@ body {
 }
 .jumbotron {
 	background-color: #fff;
-	height: 100%;
-	width: 100%;
 	/*margin-top: 50px;*/
 	text-align:center;
+}
+.jumbotron1 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
 }
 p1 {
 	font-size: 15px;
