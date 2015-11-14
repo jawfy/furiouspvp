@@ -4,7 +4,7 @@
 body {
 	background-color: #fff;
 	font-family: 'Open Sans', sans-serif;
-  color: #000;
+  color: #fff;
 }
 .navbar-default {
 	background-color: #333333;
@@ -30,12 +30,8 @@ body {
 .navbar-toggle {
 	background-color: #000000; 
 }
-.bob {
-  text-align: center;
-}
 .jumbotron {
 	background-color: #fff;
-  color: #000000;
 	/*margin-top: 50px;*/
 	text-align:center;
 }
