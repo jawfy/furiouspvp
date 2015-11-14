@@ -1,6 +1,6 @@
 /* Body */
 body {
-	background-color: #eee;
+	background-color: #10273a;
 	color: #ffffff;
 }
 .nav-h {
@@ -25,7 +25,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 .h4-blog-main {
-	color: #aeaeae;
+	color: #ffffff;
 	font-style: italic;
 	font-weight: lighter;
 }
@@ -46,6 +46,7 @@ body {
   border: 0px;
   color: inherit;
   background-color: #286090;
+  border-bottom: 4px solid #1d405e;
 }
 .pinned h1,
 .pinned .h1 {
