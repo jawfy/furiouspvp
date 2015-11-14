@@ -15,14 +15,7 @@ body {
 	background-color: #337ab7;
 	text-decoration: none;
 }
-.link:hover, .link:active:hover, .link.active:hover{
-	color: #fff;
-	padding: 25.1px 20px;
-	border-top: 4px solid #fff;
-	background-color: #10314d;
-	text-decoration: none;
-}
-}
+
 /* Blog Body CSS */
 .blog-nav {
   font-family: "Open Sans", sans-serif;
