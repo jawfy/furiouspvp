@@ -15,6 +15,20 @@ body {
 	background-color: #337ab7;
 	text-decoration: none;
 }
+a:hover {
+	color: #fff;
+	padding: 25.1px 20px;
+	border-top: 4px solid #fff;
+	background-color: #1c496f;
+	text-decoration: none;
+}
+a:active {
+	color: #fff;
+	padding: 25.1px 20px;
+	border-top: 4px solid #fff;
+	background-color: #1f8ff0;
+	text-decoration: none;
+}
 
 /* Blog Body CSS */
 .blog-nav {
@@ -85,7 +99,7 @@ body {
 /* Custom Navbar BG */
 .navigation {
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 19px;
   margin-bottom: 10px;
   border: 0px;
   color: inherit;
