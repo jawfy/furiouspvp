@@ -20,7 +20,7 @@ html {
 .soon {
 	font-family: "Roboto", sans-serif;
 	font-weight: lighter;
-	padding-top: 100px;
+	padding-top: 140px;
 }
 .coming {
 	color: #4cdf9f;
@@ -48,4 +48,5 @@ p {
     text-align:center;
     background: transparent;
     border: 1px solid #ffffff;
+    padding-bottom: 120px;
     }
