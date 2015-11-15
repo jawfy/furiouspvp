@@ -9,9 +9,10 @@
 
     <!-- Bootstrap -->
     <link href="css/soon.css" rel="stylesheet">
+    <!-- Animations -->
+    <link href="css/animate.css" rel="stylesheet">
     <!-- Custom -->
     <link href="css/soon-custom.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/demo.css">
     <!-- Font -->
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
@@ -29,13 +30,23 @@
       <div class="container">
         <div class="jumbotron">
           <div clas="col-md-12">
-            <h1 class="soon" style="font-size: 8em;">Template<span style="font-weight:light;">Z</span></h1>
-            <h2 class="coming" style="font-weight: light; color: #4cdf9f; font-size: 3em;">Coming Soon</h2>
-            <p style="font-size: 2.2em; margin-bottom: 50px;">We are making something awesome...</p>
+            <div class="animated bounceIn" style="-webkit-animation-delay: 1.4s">
+              <h1 class="soon" style="font-size: 8em;">Template<span style="font-weight:light;">Z</span></h1>
+            </div>
 
-            <div class="counter">
-              <h1>7</h1>
-              <p>DAYS</p>
+            <div class="animated bounceIn" style="-webkit-animation-delay: 1.6s">
+              <h2 class="coming" style="font-weight: light; color: #4cdf9f; font-size: 3em;">Coming Soon</h2>
+            </div>
+
+            <div class="animated bounceIn" style="-webkit-animation-delay: 2.0s">
+              <p style="font-size: 2.2em; margin-bottom: 50px;">We are making something awesome...</p>
+            </div>
+
+            <div class="animated bounceIn" style="-webkit-animation-delay: 2.2s">
+              <div class="counter">
+                <h1>7</h1>
+                <p>DAYS</p>
+              </div>
             </div>
 
           </div>
@@ -47,11 +58,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="js/kinetic.js"></script>
-    <script type="text/javascript" src="./jquery.final-countdown.js"></script>
-    <script type="text/javascript">
-      $('.countdown').final_countdown();
-    </script>
   </body>
 </html>
