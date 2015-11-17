@@ -3,7 +3,7 @@
 
 body {
 	background-color: #fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
   color: #000;
 }
 .navbar-default {
@@ -16,6 +16,9 @@ body {
   color: #000;
   border-bottom: 2px solid #eee;
   background-color: transparent;
+}
+.p1 {
+  font-family: "Josefin Sans", sans-serif;
 }
 .page1 {
   color: #676767;
@@ -94,8 +97,13 @@ height: 4em;
   color: inherit;
   background-color: #eee;
 }
+a {
+  text-decoration: none;
+}
 p1 {
-	font-size: 15px;
+	font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
 }
 a1 {
 	color: black;
@@ -123,7 +131,11 @@ a1 {
 }
 h1 {
 	font-family: 'Roboto', sans-serif;
-	font-weight: bold;
+	font-weight: lighter;
+}
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
 }
 .features {
 	background-color: #eee;
