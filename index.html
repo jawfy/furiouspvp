@@ -4,60 +4,68 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>JackEarsman | Coming Soon...</title>
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/ico" href="favicon.png"/>
+    <title>JackEarsman - Learn HTML</title>
 
-    <!-- Animate.css -->
-    <link href="css/animate.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    
-    <!-- Scrollbar -->
-    <link href="css/scroll-bar.css" rel="stylesheet">
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom -->
-    <link href="css/custom.css" rel="stylesheet">
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="./css/cover.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:100italic' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="./img/favicon.png">
 
+    <script src="./js/ie-emulation-modes-warning.js"></script><style type="text/css">:root .carbonad,
+    :root #content > #right > .dose > .dosesingle,
+    :root #content > #center > .dose > .dosesingle,
+    :root #carbonads-container
+    {display:none !important;}</style>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
+
   <body>
-    <section class="soon">
-      <div class="container">
-        <div class="text-center">
-          <img src="images/coming-soon.png">
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">JackEarsman</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Welcome.</h1>
+            <p class="lead">Glad to see you! Now this isn't for everyone but if your intrested in a free rebranding or web development, stay.</p>
+            <p class="lead">
+              <a href="projects.html" class="btn btn-lg btn-dark">Learn more</a>
+            </p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Created By Jack Earsman</p>
+            </div>
+          </div>
+
         </div>
 
-        <br>
-
-        <a class="btn btn-lg btn-soon" data-toggle="popover" data-placement="left" title="Development" data-content="I do apologize, I currently am under the development of jackearsman.com and won't be avalible until further notice.">MORE <span class="sp1">INFO<span></a>
-
       </div>
-    </section>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    </div>
 
-    <script>
-        $(function () {
-        $('[data-toggle="popover"]').popover()
-        })
-    </script>
-
+    <script src="./js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
