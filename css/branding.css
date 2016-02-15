@@ -25,7 +25,7 @@ h1,h2, h3, h4, h5, h6 {
 html,
 body {
   height: 100%;
-  background-image: url(../img/bg.png);
+  background-image: url(../img/gfx.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -78,31 +78,13 @@ body {
   vertical-align: top;
 }
 .cover-container {
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Padding for spacing */
 .inner {
-  padding: 25px;
-}
-.lead {
-  font-weight: lighter;
-}
-.section-lbs {
-  margin-top: 100px;
-  padding: 50px 10px;
-  margin-right: 800px;
-  margin-left: 800px;
-  border-color: transparent;
-  border-radius: 10px;
-  color: #fff;
-  font-weight: lighter;
-  background-image: url(../img/lbs.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-box-shadow: 0px -1px 26px -4px rgba(0,0,0,1);
-  -moz-box-shadow: 0px -1px 26px -4px rgba(0,0,0,1);
-  box-shadow: 0px -1px 26px -4px rgba(0,0,0,1);
+  padding: 30px;
 }
 
 
@@ -111,7 +93,6 @@ body {
  */
 .masthead-brand {
   margin-top: 10px;
-  font-weight: bold;
   margin-bottom: 10px;
 }
 
@@ -122,22 +103,24 @@ body {
   margin-left: 20px;
 }
 .masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
   font-size: 16px;
-  font-weight: bolder;
-  color: #818181; /* IE8 proofing */
-  border-bottom: transparent;
+  font-weight: lighter;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,0.75);
+  border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  color: #000;
   border-bottom-color: #a9a9a9;
-  border-bottom-color: #eee;
+  border-bottom-color: rgba(255,255,255,.25);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #000;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -162,6 +145,17 @@ body {
   font-weight: lighter;
 }
 
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
 /*
  * Affix and center
  */
@@ -171,11 +165,7 @@ body {
   .masthead {
     position: fixed;
     top: 0;
-    text-align: center;
-    width: 100%;
-    background-color: #fff;
-    color: #000;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #fff;
   }
   .mastfoot {
@@ -188,12 +178,16 @@ body {
   }
   /* Handle the widths */
   .masthead,
-  .cover-container { /* Must be percentage or pixels for horizontal alignment */
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
 
 @media (min-width: 992px) {
   .masthead,
+  .mastfoot,
   .cover-container {
+    width: 700px;
   }
 }
