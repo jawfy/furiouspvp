@@ -17,6 +17,11 @@ a:hover {
 h1,h2, h3, h4, h5, h6 {
   font-weight: lighter;
 }
+.sorry {
+  padding-top: 250px;
+  padding-bottom: 250px;
+  margin: 0 auto;
+}
 
 /*
  * Base structure
@@ -25,13 +30,15 @@ h1,h2, h3, h4, h5, h6 {
 html,
 body {
   height: 100%;
-  background-image: url(../img/bg.png);
+  /*background-image: url(../img/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
+  background-color: #eee;
+  color: #000;
 }
 body {
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 body {
@@ -181,6 +188,8 @@ body {
   .mastfoot {
     position: fixed;
     bottom: 0;
+    text-align: center;
+    margin: 0 auto;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
