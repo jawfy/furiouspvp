@@ -45,6 +45,18 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
 }
+p {
+  font-size: 1.3em;
+}
+
+.blocked {
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  margin: 0 auto;
+  display: inline;
+}
 
 .btn-dark {
     border-radius: 20px;
