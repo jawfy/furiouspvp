@@ -49,15 +49,6 @@ p {
   font-size: 1.3em;
 }
 
-.blocked {
-  padding: 30px;
-  color: #fff;
-  text-align: center;
-  background-color: #000;
-  margin: 0 auto;
-  display: inline;
-}
-
 .btn-dark {
     border-radius: 20px;
     color: #fff;
@@ -99,6 +90,9 @@ p {
 .cover-container {
   margin: 0 auto;
 }
+.bg-primary {
+  background-color: #f05f40;
+}
 
 /* Padding for spacing */
 .inner {
@@ -123,7 +117,11 @@ p {
   -moz-box-shadow: 0px -1px 26px -4px rgba(0,0,0,1);
   box-shadow: 0px -1px 26px -4px rgba(0,0,0,1);
 }
-
+.home {
+  padding: 100px;
+  background-color:
+  #f05f40; 
+}
 
 /*
  * Header
