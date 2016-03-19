@@ -117,3 +117,30 @@ html {
   .cover-container {
   }
 }
+
+/* IMG POSITIONING */
+img.logo
+{
+  position: absolute;
+  max-width: 80%;
+  top: 10%;
+  left: 10%;
+}
+img.logo:empty
+{
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@media screen and (orientation: portrait) {
+  img.logo { max-width: 90%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.logo { max-height: 90%; }
+}
+
