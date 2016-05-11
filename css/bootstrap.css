@@ -4500,38 +4500,28 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: none;
   font-weight: bolder;
   border-radius: 0px;
-  font-size: 1.3em;
+  font-size: 1em;
   padding-bottom: 20px;
   padding-top: 20px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.6);
-}
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
 }
 .navbar-default .navbar-brand {
-  color: #fff;
+  color: #337ab7;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #fff;
+  color: #337ab7;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #fff;
+  color: #337ab7;
   text-align: center;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
+  color: #337ab7;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #eee;
+  color: #2e5c84;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
