@@ -1,0 +1,27 @@
+/*  Body START */
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f1f1f1;
+	color: #222222;
+}
+
+
+/* Wrapper START */
+.wrapper {
+	margin-top: 50px;
+	margin: 0 auto:
+	font-weight: 1.2em;
+}
+/* Wrapper END */
+
+.p-bold {
+	font-weight: 1em;
+	text-align: center;
+	vertical-align: middle;
+	width: 300px;
+	margin: 0 auto;
+}
+
+p {
+	text-align: center;
+}
