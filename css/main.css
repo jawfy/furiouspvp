@@ -1,5 +1,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .wrapper {
@@ -11,9 +15,22 @@ body {
 .navbar-default {
   margin-bottom: 0px;
   padding: 20px;
-  background-color: #222222;
+  background-color: rgba(0,0,0,0.3);
   box-shadow: none;
   border: none;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 40px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 20px;
+    }
 }
 
 .navbar-brand {
@@ -33,7 +50,7 @@ body {
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     color: #ffffff;
-    background-color: #3b3b3b;
+    background-color: rgba(59,59,59, 0.3);
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -48,7 +65,7 @@ body {
   display: block;
   position: relative;
   padding: 300px 0px;
-  background-color: #222222;
+  background: none;
   color: #ffffff;
 }
 
@@ -62,9 +79,10 @@ body {
 .quote {
   display: block;
   position: relative;
-  padding: 100px;
+  padding: 95px;
   background-color: #ffffff;
   color: #222222;
+  box-shadow: 0 5px 10px rgba(0,0,0, 0.5)
 }
 
 .quote h2 {
@@ -74,8 +92,62 @@ body {
 
 .quote h4 {
   text-align: center;
+  width: 400px;
+  margin: 0 auto;
   vertical-align: middle;
   margin-bottom: 30px;
+}
+
+@media (min-width: 100px) {
+  .quote h4 {
+    margin: 0 auto;
+    width: 150px
+  }
+}
+
+@media (min-width: 400px) {
+  .quote h4 {
+    margin: 0 auto;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .quote h4 {
+    margin: 0 auto;
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .quote h3 {
+    margin: 0 auto;
+    font-size: 1.8em;
+  }
+}
+
+@media (min-width: 100px) {
+  .quote h3 {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 400px) {
+  .quote h3 {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 100px) {
+  .quote h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 400px) {
+  .quote h2 {
+    font-size: 2em;
+  }
 }
 
 /* Portfolio END */
