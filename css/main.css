@@ -59,7 +59,7 @@ body {
 /* Header END */
 
 /* Portfolio START */
-.portfolio {
+.quote {
   display: block;
   position: relative;
   padding: 100px;
@@ -67,15 +67,17 @@ body {
   color: #222222;
 }
 
-.portfolio h2 {
+.quote h2 {
   text-align: center;
   vertical-align: middle;
 }
 
-.portfolio h4 {
+.quote h4 {
   text-align: center;
   vertical-align: middle;
+  margin-bottom: 30px;
 }
+
 /* Portfolio END */
 
 /* Footer START */
@@ -90,6 +92,26 @@ body {
   vertical-align: middle;
 }
 /* Footer END */
+
+/* Button START */
+.btn-primary {
+  background-color: #222222;
+  border: none;
+  border-radius: 0px;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #222222;
+  border: none;
+  border-radius: 0px;
+}
+
+.btn-primary:active {
+  background-color: #222222;
+}
+/* Button END */
 
 /* Scrollbar START 
 ::-webkit-scrollbar {
