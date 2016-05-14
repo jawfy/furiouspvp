@@ -50,7 +50,7 @@ body {
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     color: #ffffff;
-    background-color: rgba(59,59,59, 0.3);
+    background-color: rgba(0,0,0, 0.3);
 }
 
 .navbar-default .navbar-nav > li > a:hover,
