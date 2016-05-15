@@ -196,14 +196,14 @@ body {
 /* iFrame */
 @media (min-width: 100px) {
   iframe {
-    margin: 0 auto;
+    margin-left: -15px;
     text-align: center;
     width: 200px;
   }
 }
 @media (min-width: 400px) {
   iframe {
-    margin: 0 auto;
+    margin-left: -15px;
     width: 200px;
   }
 }
