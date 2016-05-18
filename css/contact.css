@@ -166,14 +166,14 @@ body {
 /* iFrame */
 @media (min-width: 100px) {
   iframe {
-    margin-left: -40px;
+    margin-left: -45px;
     text-align: center;
     width: 200px;
   }
 }
 @media (min-width: 400px) {
   iframe {
-    margin-left: -40px;
+    margin-left: -45px;
     width: 200px;
   }
 }
