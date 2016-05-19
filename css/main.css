@@ -167,22 +167,36 @@ body {
 /* Footer END */
 
 /* Button START */
-.btn-primary {
-  background-color: #222222;
-  border: none;
-  border-radius: 0px;
+.btn-facebook {
+  border: 2px solid #23527c;
+  background-color: #23527c;
+  border-radius: 30px;
+  margin-right: 15px;
+  color: #ffffff;
+}
+.btn-facebook:focus,
+.btn-facebook:hover,
+.btn-facebook:active {
+  background-color: #1a4469;
+  border-radius: 30px;
+  margin-right: 15px;
+  color: #ffffff;
 }
 
-.btn-primary:focus,
-.btn-primary:hover,
-.btn-primary:active {
-  background-color: #222222;
-  border: none;
-  border-radius: 0px;
+.btn-t {
+  background-color: #4099FF;
+  border: 2px solid #4099FF;
+  border-radius: 30px;
+  color: #ffffff;
 }
 
-.btn-primary:active {
-  background-color: #222222;
+.btn-t:focus,
+.btn-t:hover,
+.btn-t:active {
+  background-color: #2b74c6;
+  border: 2px solid #4099FF;
+  border-radius: 30px;
+  color: #ffffff;
 }
 /* Button END */
 

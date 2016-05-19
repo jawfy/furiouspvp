@@ -163,6 +163,40 @@ body {
 }
 /* Footer END */
 
+/* Button START */
+.btn-facebook {
+  border: 2px solid #23527c;
+  background-color: #23527c;
+  border-radius: 30px;
+  margin-right: 15px;
+  color: #ffffff;
+}
+.btn-facebook:focus,
+.btn-facebook:hover,
+.btn-facebook:active {
+  background-color: #1a4469;
+  border-radius: 30px;
+  margin-right: 15px;
+  color: #ffffff;
+}
+
+.btn-t {
+  background-color: #4099FF;
+  border: 2px solid #4099FF;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+.btn-t:focus,
+.btn-t:hover,
+.btn-t:active {
+  background-color: #2b74c6;
+  border: 2px solid #4099FF;
+  border-radius: 30px;
+  color: #ffffff;
+}
+/* Button END */
+
 /* iFrame */
 @media (min-width: 100px) {
   iframe {
