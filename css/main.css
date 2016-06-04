@@ -1,10 +1,9 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   background-image: url(../img/background.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-weight: lighter;
 }
 
 .wrapper {
@@ -16,14 +15,14 @@ body {
 .navbar-default {
   margin-bottom: 0px;
   padding: 20px;
-  background-color: rgba(0,0,0,0.3);
+  background-color: #fff;
   box-shadow: none;
   border: none;
 }
 
 @media(min-width:767px) {
     .navbar {
-        padding: 40px 0;
+        padding: 30px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -39,7 +38,7 @@ body {
 }
 
 .navbar-default .navbar-brand {
-  color: #ffffff;
+  color: #222;
 }
 
 .navbar-text {
@@ -50,13 +49,13 @@ body {
 .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color: rgba(0,0,0, 0.3);
+    color: #222;
+    background-color: #f9f9f9;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff;
+  color: #222;
   background-color: transparent;
 }
 /* Navbar END */
@@ -64,6 +63,7 @@ body {
 /* Header START */
 .header {
   display: block;
+  font-weight: 200;
   position: relative;
   padding: 300px 0px;
   background: none;
@@ -73,6 +73,13 @@ body {
 .header h2 {
   text-align: center;
   vertical-align: middle;
+  font-weight: 300;
+}
+
+.header h5 {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 300;
 }
 /* Header END */
 
@@ -156,7 +163,7 @@ body {
 /* Footer START */
 .footer {
   padding: 40px;
-  background-color: #222222;
+  background-color: rgba(34,34,34,0.95);
   color: #ffffff;
 }
 
