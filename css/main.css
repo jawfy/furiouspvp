@@ -212,19 +212,21 @@ body {
 @media (min-width: 100px) {
   iframe {
     margin-left: -50px;
-    text-align: center;
-    width: 200px;
+    position: relative;
+    max-width: 100%;
   }
 }
 @media (min-width: 400px) {
   iframe {
     margin-left: -50px;
-    width: 200px;
+    max-width: 100%;
+    position: relative;
   }
 }
 @media (min-width: 768px) {
   iframe {
     width: 100%;
+    position: relative;
   }
 }
 /* iFrame */
