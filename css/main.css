@@ -218,15 +218,13 @@ body {
 /* iFrame */
 @media (min-width: 100px) {
   iframe {
-    margin-left: -50px;
     position: relative;
-    max-width: 100%;
+    width: 100%;
   }
 }
 @media (min-width: 400px) {
   iframe {
-    margin-left: -50px;
-    max-width: 100%;
+    width: 100%;
     position: relative;
   }
 }
