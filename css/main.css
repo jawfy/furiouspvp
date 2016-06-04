@@ -212,7 +212,6 @@ body {
 @media (min-width: 100px) {
   iframe {
     margin-left: -45px;
-    text-align: center;
     width: 100px;
   }
 }
