@@ -213,13 +213,13 @@ body {
   iframe {
     margin-left: -45px;
     text-align: center;
-    width: 100%;
+    width: 100px;
   }
 }
 @media (min-width: 400px) {
   iframe {
     margin-left: -45px;
-    width: 100%;
+    width: 200px;
   }
 }
 @media (min-width: 768px) {
