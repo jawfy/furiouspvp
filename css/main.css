@@ -211,19 +211,20 @@ body {
 /* iFrame */
 @media (min-width: 100px) {
   iframe {
-    margin-left: -45px;
-    width: 100px;
+    margin-left: -30px;
+    text-align: center;
+    width: 200px;
   }
 }
 @media (min-width: 400px) {
   iframe {
-    margin-left: -45px;
+    margin-left: -30px;
     width: 200px;
   }
 }
 @media (min-width: 768px) {
   iframe {
-    width: 200px;
+    width: 100%;
   }
 }
 /* iFrame */
