@@ -1,3 +1,14 @@
 body {
 	font-family: "Lato", sans-serif;
 }
+
+/* Header */
+.hero-header {
+	padding: 350px;
+	background-image: url(../img/background.png);
+}
+.hero-header h1 {
+	vertical-align: middle;
+	color: #fff;
+}
+/* Header */
