@@ -1,238 +1,53 @@
 body {
-  font-family: 'Lato', sans-serif;
-  background-image: url(../img/background.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+	font-family: "Lato", sans-serif;
+	background-color: #fff;
+	color: #222;
+	margin-top: 30px;
+}
+.vertical-center {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-left: -15px;
+	background-color: #f1f1f1;
+	vertical-align: middle;
+}
+.vertical-center h3 {
+	vertical-align: middle;
 }
 
-.wrapper {
-  font-size: 1.1em;
-  margin: 0 auto;
+.btn-red {
+	padding: 10px 20px;
+	background-color: #e75555;
+	color: #fff;
+	border-radius: 0px;
+	transition: all 0.5s ease 0s;
 }
 
-/* Navbar START */
-.navbar-default {
-  margin-bottom: 0px;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: none;
-  border: none;
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active {
+	padding: 10px 20px;
+	background-color: #c43a3a;
+	color: #fff;
+	border-radius: 0px;
+
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 30px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 20px;
-    }
+.btn-blue {
+	padding: 10px 20px;
+	background-color: #00bbdb;
+	color: #fff;
+	border-radius: 0px;
+	transition: all 0.5s ease 0s;
 }
 
-.navbar-brand {
-  margin-right: 15px;
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
+	padding: 10px 20px;
+	background-color: #1e839c;
+	color: #fff;
+	border-radius: 0px;
 }
-
-.navbar-default .navbar-brand {
-  color: #222;
-}
-
-.navbar-text {
-  margin-right: 20px;
-}
-
-.navbar-default 
-.navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .active > a:focus {
-    color: #222;
-    background-color: #f9f9f9;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #222;
-  background-color: transparent;
-}
-/* Navbar END */
-
-/* Header START */
-.header {
-  display: block;
-  font-weight: 200;
-  position: relative;
-  padding: 300px 0px;
-  background: none;
-  color: #ffffff;
-}
-
-.header h2 {
-  text-align: center;
-  vertical-align: middle;
-  font-weight: 300;
-}
-
-.header h5 {
-  text-align: center;
-  vertical-align: middle;
-  font-weight: 300;
-}
-/* Header END */
-
-/* Contact START */
-.quote {
-  display: block;
-  position: relative;
-  padding-top: 95px;
-  padding-bottom: 95px;
-  background-color: #ffffff;
-  color: #222222;
-  box-shadow: 0 5px 10px rgba(0,0,0, 0.5)
-}
-
-.quote h2 {
-  text-align: center;
-  vertical-align: middle;
-}
-
-.quote h4 {
-  text-align: center;
-  width: 400px;
-  margin: 0 auto;
-  vertical-align: middle;
-  margin-bottom: 30px;
-}
-
-@media (min-width: 100px) {
-  .quote h4 {
-    margin: 0 auto;
-    width: 150px
-  }
-}
-
-@media (min-width: 400px) {
-  .quote h4 {
-    margin: 0 auto;
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 768px) {
-  .quote h4 {
-    margin: 0 auto;
-    width: 400px;
-  }
-}
-
-@media (min-width: 768px) {
-  .quote h3 {
-    margin: 0 auto;
-    font-size: 1.8em;
-  }
-}
-
-@media (min-width: 100px) {
-  .quote h3 {
-    font-size: 1.2em;
-  }
-}
-
-@media (min-width: 400px) {
-  .quote h3 {
-    font-size: 1.2em;
-  }
-}
-
-@media (min-width: 100px) {
-  .quote h2 {
-    font-size: 1.5em;
-  }
-}
-
-@media (min-width: 400px) {
-  .quote h2 {
-    font-size: 2em;
-  }
-}
-
-/* Contact END */
-
-/* Footer START */
-.footer {
-  padding: 40px;
-  background-color: rgba(34,34,34,0.95);
-  color: #ffffff;
-}
-
-.footer p {
-  text-align: center;
-  vertical-align: middle;
-}
-/* Footer END */
-
-/* Button START */
-.btn-facebook {
-  border: 2px solid #23527c;
-  background-color: #23527c;
-  border-radius: 30px;
-  margin-right: 15px;
-  color: #ffffff;
-}
-.btn-facebook:focus,
-.btn-facebook:hover,
-.btn-facebook:active {
-  background-color: #1a4469;
-  border-radius: 30px;
-  margin-right: 15px;
-  color: #ffffff;
-}
-
-.btn-t {
-  background-color: #4099FF;
-  border: 2px solid #4099FF;
-  border-radius: 30px;
-  color: #ffffff;
-}
-
-.btn-t:focus,
-.btn-t:hover,
-.btn-t:active {
-  background-color: #2b74c6;
-  border: 2px solid #4099FF;
-  border-radius: 30px;
-  color: #ffffff;
-}
-/* Button END */
-
-/* Scrollbar START 
-::-webkit-scrollbar {
-    width: 5px;
-    margin-right: 15px;
-    background-color: #3b3b3b;
-}
- Scrollbar END */
-
-/* iFrame */
-@media (min-width: 100px) {
-  iframe {
-    position: relative;
-    width: 100%;
-  }
-}
-@media (min-width: 400px) {
-  iframe {
-    width: 100%;
-    position: relative;
-  }
-}
-@media (min-width: 768px) {
-  iframe {
-    width: 100%;
-    position: relative;
-  }
-}
-/* iFrame */
