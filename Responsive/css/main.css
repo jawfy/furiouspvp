@@ -16,6 +16,8 @@ body {
 
 .hero-quote {
 	padding-top: 100px;
+	display: block;
+	position: relative;
 	padding-bottom: 100px;
 	width: 100%;
 	max-width: none;
@@ -33,11 +35,3 @@ body {
 	max-width: none;
 	text-align: center;
 }
-
-@media only screen and (min-width: 768px) {
-	iframe {
-		width: 28%
-		max-width: 900px;
-	}
-}
-
