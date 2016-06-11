@@ -36,3 +36,23 @@ body {
 	max-width: none;
 	text-align: center;
 }
+
+/* iFrame */
+@media (min-width: 100px) {
+  iframe {
+    margin-left: -45px;
+    width: 200px;
+  }
+}
+@media (min-width: 400px) {
+  iframe {
+    margin-left: -45px;
+    width: 200px;
+  }
+}
+@media (min-width: 768px) {
+  iframe {
+    width: 100%;
+  }
+}
+/* iFrame */
