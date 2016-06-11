@@ -33,3 +33,10 @@ body {
 	max-width: none;
 	text-align: center;
 }
+
+@media only screen and (min-width: 768px) {
+	iframe {
+		width: 100%
+		max-width: 900px;
+	}
+}
