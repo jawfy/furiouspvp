@@ -4,11 +4,11 @@ body {
 
 /* Header */
 .hero-header {
-	padding: 350px;
+	padding-top: 350px;
+	padding-bottom: 350px;
 	background-image: url(../img/background.png);
 }
 .hero-header h1 {
-	vertical-align: middle;
 	color: #fff;
 }
 /* Header */
