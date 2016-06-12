@@ -33,6 +33,12 @@ body {
 /* Header Styles END */
 
 /* Services Styles */
+.service-title {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background: #e75555;
+	color: #fff;
+}
 .service {
 	width: 100%;
 	color: #fff;
