@@ -34,10 +34,35 @@ body {
 
 /* Services Styles */
 .service {
-	padding-top: 200px;
-	padding-bottom: 200px;
 	width: 100%;
-	background-color: #eee;
+	color: #fff;
+	background: linear-gradient (left, #111 50%, #333 50%);
+	background: -webkit-linear-gradient(left, #111 50%, #333 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #111 50%, #333 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #111 50%, #333 50%); /* For Firefox 3.6 to 15 */
+}
+@media (min-width: 320px) {
+	.service {
+		background: #fff;
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 768px) {
+	.service {
+		background: #fff;
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.service {
+		margin-top: 0px;
+		background: linear-gradient (left, #111 50%, #333 50%);
+		background: -webkit-linear-gradient(left, #111 50%, #333 50%); /* For Safari 5.1 to 6.0 */
+	    background: -o-linear-gradient(left, #111 50%, #333 50%); /* For Opera 11.1 to 12.0 */
+	    background: -moz-linear-gradient(left, #111 50%, #333 50%); /* For Firefox 3.6 to 15 */
+	}
 }
 .service-i {
 	text-align: center;
@@ -85,6 +110,15 @@ body {
 }
 /* Button Styles END */
 
+/* Footer */
+.mastfoot {
+    color: #999;
+    color: rgba(255,255,255,.5);
+}
+.inner {
+    padding: 30px;
+}
+/* Footer END */
 
 
 /* General Styling */
