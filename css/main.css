@@ -81,7 +81,36 @@ body {
   	font-size: 15px;
   	margin: 0 auto;
 }
+/* Service END */
 
+/* About Styles */
+.about-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #111;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.about {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	background: url(../img/background-2.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	color: #fff;
+}
+/* About END */
+
+.footer-bm {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #e75555;
+	color: #fff;
+}
 
 
 /* Button Styles */
