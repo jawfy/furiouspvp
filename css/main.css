@@ -135,12 +135,17 @@ body {
 	}
 }
 
+@media only screen and (min-width: 1200px) {
+	.about {
+		margin-left: -24px;
+	}
+}
+
 
 @media only screen and (min-width: 1745px) {
 	.about {
 		text-align: left;
-		border: none;
-		margin-left: -295px;
+		margin-left: -382px;
 	}
 	.about-main {
 		text-align: left;
