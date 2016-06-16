@@ -193,10 +193,19 @@ body {
 
 .img-fb {
 	margin-right: 25px;
+	width: 14px;
+	height: 23px;
 }
 
 .img-db {
 	margin-right: 25px;
+	width: 23px;
+	height: 23px;
+}
+
+.img-tw {
+	width: 23px;
+	height: 23px;
 }
 /* Social END */
 
