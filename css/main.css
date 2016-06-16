@@ -168,6 +168,10 @@ body {
 
 }
 
+.about-p {
+	width: 500px;
+}
+
 .about-main .about-header {
 	color: #fff;
 }
@@ -184,13 +188,28 @@ body {
 }
 /* About END */
 
+/* Social Styles */
+.social {
+	padding: 50px;
+	background: #111;
+	color: #fff;
+}
+
+.img-fb {
+	margin-right: 15px;
+}
+
+.img-db {
+	margin-right: 15px;
+}
+/* Social END */
+
 .footer-bm {
 	padding-top: 20px;
 	padding-bottom: 10px;
 	background-color: #e75555;
 	color: #fff;
 }
-
 
 /* Button Styles */
 .btn-red {
