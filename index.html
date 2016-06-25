@@ -8,59 +8,189 @@
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
 
-    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
 
   </head>
   <body>
-
+      <!-- Navigation
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="navbar-header page-scroll">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Jack Earsman</a>
-        </div>
+          <div class="container">
+              <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand page-scroll" href="#page-top">JackEarsman</a>
+              </div>
 
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active">
-              <a class="page-scroll" href="http://jackearsman.com/">Home</a>
-            </li>
-            <li class="">
-              <a class="page-scroll" href="http://jackearsman.com/about">About</a>
-            </li>
-            <li class="disabled">
-              <a class="page-scroll" href="contact.html">Contact Me</a>
-            </li>
-            <li class="">
-              <a class="page-scroll" href="https://dribbble.com/jawfy">My Work</a>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="https://twitter.com/jawfy">Twitter</a></li>
-                <li><a href="https://dribbble.com/jawfy">Dribbble</a></li>
-                <li><a href="https://facebook.com/jackearsmandesigner">Facebook</a></li>
-              </ul>
-            </li>
-          </ul>
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+                  <ul class="nav navbar-nav">
+                      <li class="">
+                          <a class="page-scroll" href="#top">Home</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#about">About</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#services">Services</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav> -->
+
+      <div class="header">
+        <div class="text-vertical-center">
+          <h3>JackEarsman</h3>
+          <h4>Designer &amp; Website Developer</h4>
+
+          <br>
+
+          <a class="page-scroll" href="#services"><button class="btn btn-sm btn-blue">Learn More</button></a>
+
         </div>
       </div>
-    </nav>
 
-    <header id="top" class="header">
-      <div class="text-vertical-center">
+      <div class="service-title">
         <div class="container">
-          <h1 class="header-h1">Hey, I'm Jack!</h1>
-          <h3 class="header-p">I'm a designer &amp; website developer.</h3>
+          <div class="text-center">
+            <h4>My Field of Design</h4>
+          </div>
         </div>
       </div>
-    </header>
+
+      <div id="services" class="service">
+        <div class="container">
+          <div class="row">
+            <div class="text-center">
+              <div class="container">
+                <div class="text-vertical-center-1">
+                  <div class="col-lg-4" style="padding: 40px; background-color: #111;">
+                    <div class="text-vertical-center-1">
+                      <h4>Flat Design</h4>
+                      <p>I love design and flat design just adds to the fun. It's a beautiful way of design, removing drop shadows, gradients and textures to give you a beautiful elegant, minimal and clean design holding only few colors.</p>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4" style="padding: 40px; background-color: #222;">
+                    <div class="text-vertical-center-1">
+                      <h4>Branding Design</h4>
+                      <p>I offer various different types of branding, such as logo design for your new startup or maybe you want a fresh look for your business well I'm happy to help. If you'd like a look at my work click the button below.</p>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4" style="padding: 40px; background-color: #333;">
+                    <div class="text-vertical-center-1">
+                      <h4>UI Design</h4>
+                      <p>UI Design is my favourite type of design, I love creating beautiful user interface designs weather there flat or not. User Interface design is also something I offer. Being a designer I don't code the UI though.</p>
+                  </div>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about " class="about">
+      <div class="container">
+
+          <!-- <h4 style="padding: 40px; background-color: #111;">Insperation</h4>
+          <p style="padding: 40px; background-color: #111;">My brother is a designer &amp; website developer which is where I got the inspiration... I was 9 when I started to bug my brother, I'd come sit in his bedroom constantly asking questions and watching what he was doing. I believe that that day is what first sparked design in my head, I can remember one day I came into his room and he was on photoshop cs5 designing a communication type icon, it had two ellipse objects with a little arrow at the bottom right-hand side of each, he spent hours if not days perfecting the design to eventually see it appear in the footer of his and his partners app called; interstateapp.</p>
+
+          <br>
+
+          <h4 style="padding: 40px; background-color: #111;">Learning</h4>
+          <p style="padding: 40px; background-color: #111;">This amazed me to see something come from what was built by my brother to appear on an interactive website! It attracted me to design rather than HTML but I always wanted to explore it yet it took me 3 years from 9 to finally try website development. In that 3 years, I focused on photoshop and design, I spent hours each day messing around with tools, watching online tutorials and reading articles to eventually get to grips with how design and photoshop worked.</p>
+
+          <br>
+
+          <h4 style="padding: 40px; background-color: #111;">Website Development</h4>
+          <p style="padding: 40px; background-color: #111;">12, almost knowing everything about photoshop and what a good design looks like I took to website development. I took the same approach that I did with design only I would download templates and mess around with the code rather than tools. It took about a year of this when I felt confident with HTML and CSS.</p> -->
+
+          <div class="about-main">
+
+            <h4 class="about-header">About Me</h4>
+            <p class="about-p">I'm a Scottish user interface designer &amp; website developer, born in 2002 currently 14 years old. I love to create beautiful, flat user interfaces; websites also. My biggest inspiration would be my brother <a href="https://twitter.com/awfy">Greg</a>, he has defantly helped drive my passion to where I am today.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="social">
+      <div class="text-center">
+
+        <h4>Find Me On</h4>
+        <br>
+
+        <div class="row">
+          <div class="col-xm-12">
+            <a href="https://www.facebook.com/jackearsmandesigner/"><img class="img-fb" src="./img/facebook.png"></a>
+
+            <a href="https://dribbble.com/jawfy"><img class="img-db" src="./img/dribble.png"></a>
+
+            <a href="https://twitter.com/jawfy"><img class="img-tw" src="./img/twitter.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bm">
+      <div class="container">
+        <div class="text-center">
+          <p>&copy; Copyright Jackearsman.com - 2002 - 2016 </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Services
+    <div id="services" class="service">
+      <div class="container">
+          <div class="row">
+            <div class="text-center">
+              <div class="container">
+                <div class="text-vertical-center-1">
+                  <h3>My Services</h3>
+                  <h4>My services is here to better your understanding on me and what I offer in my designs. This list is all three diffrent ways I like to design my work.</h4>
+                  <div class="dropper"></div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="text-vertical-center-1">
+                  <h4>Flat Design</h4>
+                  <p>I love design and flat design just adds to the fun. It's a butiful way of design, removing drop shadows, gradients and textures to give you a beutiful elegant, minimalistic and clean design holding only one colour in each object.</p>
+                  <button class="btn btn-sm btn-red">Check It Out</button>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="text-vertical-center-1">
+                  <h4>Branding Design</h4>
+                  <p>I love design and flat design just adds to the fun. It's a butiful way of design, removing drop shadows, gradients and textures to give you a beutiful elegant, minimalistic and clean design holding only one colour in each object.</p>
+                  <button class="btn btn-sm btn-red">Check It Out</button>
+                </div>
+              </div>
+                <div class="text-vertical-center-1">
+                  <h4>UI Design</h4>
+                  <p>I love design and flat design just adds to the fun. It's a butiful way of design, removing drop shadows, gradients and textures to give you a beutiful elegant, minimalistic and clean design holding only one colour in each object.</p>
+                  <button class="btn btn-sm btn-red">Check It Out</button>
+                </div>
+              <div class="col-lg-4">
+                
+              </div>
+          </div>
+        </div>
+    </div> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
