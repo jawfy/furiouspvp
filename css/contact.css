@@ -6,15 +6,10 @@ body {
 }
 
 body {
-  font-family: "Brandon Grotesque", sans-serif;
+  font-family: 'europa', sans-serif
 }
-/* Body */
 
-/* Font Import */
-@font-face {
-  font-family: 'Brandon Grotesque';
-  src: url('Brandon-Lgt.oft') format('opentype');
-}
+
 /* Font Import */
 
 /* Misc */
@@ -29,8 +24,8 @@ body {
 /* Nav */
 .navbar-default {
   margin-bottom: 0px;
-  padding: 50px;
-  font-family: "Muli", sans-serif;
+  padding-left: 40px;
+  padding-top: 20px;
   background-color: transparent;
   font-weight: 900;
   font-size: 10pt;
@@ -52,7 +47,7 @@ body {
 
 .navbar-default .navbar-nav > li > a {
     color: #9DABBA;
-    font-weight: 900;
+    font-weight: 100;
     transition: all 0.5s ease;
     font-size: 12pt;
 }
@@ -69,7 +64,7 @@ body {
 .navbar-default .navbar-nav > li > a:focus {
   color: #d26969;
   background-color: transparent;
-  font-weight: 900;
+  font-weight: 100;
   transition: all 0.5s ease;
   font-size: 12pt;
 }
