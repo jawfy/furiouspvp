@@ -153,6 +153,16 @@ body {
   }
 }
 
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:active {
+    color: #4ec89b;
+    transition: all 0.5s ease;
+  }
+}
+
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent;
     border: none;
