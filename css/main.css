@@ -5,9 +5,13 @@ body {
 }
 
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: "Brandon Grotesque", sans-serif;
 }
 
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('Brandon-Lgt.oft') format('opentype');
+}
 /* Misc */
 ::selection {
   background: #ff8e8e; /* WebKit/Blink Browsers */
@@ -20,16 +24,16 @@ body {
 /* Nav */
 .navbar-default {
   margin-bottom: 0px;
-  padding: 34.39px;
-  background-color: #fff;
-  box-shadow: 1px 1px 100px rgba(0,0,0,0.175);
+  padding: 50px;
+  font-family: "Muli", sans-serif;
+  background-color: #f1f1f1;
   font-weight: 900;
   font-size: 10pt;
   border: none;
 }
 
 .navbar-default .navbar-brand {
-    color: #222;
+    color: #9DABBA;
     font-weight: 900;
     font-size: 17pt;
 }
@@ -42,7 +46,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #222;
+    color: #9DABBA;
     font-weight: 900;
     transition: all 0.5s ease;
     font-size: 12pt;
@@ -142,7 +146,7 @@ body {
 .navbar-default .navbar-nav > .disabled > a, 
 .navbar-default .navbar-nav > .disabled > a:hover, 
 .navbar-default .navbar-nav > .disabled > a:focus {
-    color: #222;
+    color: #9DABBA;
     background-color: transparent;
 }
 
@@ -158,7 +162,7 @@ body {
     width: 100%;
     color: #222;
     height: 100%;
-    background: #fff;
+    background: #f1f1f1;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
