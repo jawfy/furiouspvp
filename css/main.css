@@ -214,8 +214,9 @@ a:active {
   border: none;
   width: 15%;
   border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 0px;
   border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .btn-contact:hover,
@@ -230,7 +231,8 @@ a:active {
   border: none;
   width: 15%;
   border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 0px;
   border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 /* Buttons */
