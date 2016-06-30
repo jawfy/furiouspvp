@@ -21,46 +21,57 @@ body {
 /* Nav */
 .navbar-default {
   margin-bottom: 0px;
-  padding-left: 40px;
-  padding-top: 20px;
-  background-color: #fff;
+  padding: 10px 30px;
+  background-color: transparent;
   font-weight: 100;
   font-size: 10pt;
   border: none;
 }
 
+@media screen and (min-width: 300px) {
+  .navbar-default {
+    background-color: rgba(241,241,241,0.95);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+  }
+}
+
 .navbar-default .navbar-brand {
-    color: #222;
-    font-weight: 100;
-    transition: all 0.5s ease;
-    font-size: 17pt;
+  color: #9DABBA;
+  transition: all 0.5s ease;
+  font-weight: 100;
+  font-size: 17pt;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #d26969;
+  color: #4ec89b;
   transition: all 0.5s ease;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #9DABBA;
-    font-weight: 100;
-    transition: all 0.5s ease;
-    font-size: 12pt;
+  color: #9DABBA;
+  font-weight: 100;
+  transition: all 0.5s ease;
+  font-size: 12pt;
 }
 
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #d26969;
-    transition: all 0.5s ease;
-    background-color: transparent;
+  color: #4ec89b;
+  transition: all 0.5s ease;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #d26969;
+  color: #4ec89b;
   background-color: transparent;
   font-weight: 100;
   transition: all 0.5s ease;
@@ -68,41 +79,47 @@ body {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #842e2e;
+  background-color: #4ec89b;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-default .navbar-toggle .icon-bar:focus,
+.navbar-default .navabr-toggle .icon-bar:active {
+  background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:active {
-    background-color: #d26969;
-    transition: all 0.5s ease;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
 }
 
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #d26969;
-    background-color: transparent;
+  color: #4ec89b;
+  background-color: transparent;
 }
 
 
 .dropdown-menu > li > a {
-    display: block;
-    padding: 20px 20px;
-    font-weight: 900;
-    clear: both;
-    letter-spacing: 0.8px;
-    line-height: 1.42857143;
-    color: #a14e4e;
-    white-space: nowrap;
+  display: block;
+  padding: 20px 20px;
+  font-weight: 100;
+  clear: both;
+  letter-spacing: 0.8px;
+  line-height: 1.42857143;
+  color: #fff;
+  white-space: nowrap;
 }
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #fff;
-  font-weight: 900;
+  font-weight: 100;
   text-decoration: none;
-  background-color: #d26969;
+  background-color: #33a27a;
   transition: all 0.5s ease;
 }
 
@@ -114,14 +131,14 @@ body {
   display: none;
   float: left;
   min-width: 150px;
-  font-weight: 900;
+  font-weight: 100;
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 14px;
   text-align: left;
   list-style: none;
   color: #fff;
-  background-color: #e57777;
+  background-color: #4ec89b;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border-radius: 0px;
@@ -131,9 +148,19 @@ body {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #a14e4e;
+    color: #9DABBA;
   }
 }
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:active {
+    color: #4ec89b;
+    transition: all 0.5s ease;
+  }
+}
+
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent;
@@ -144,15 +171,14 @@ body {
 .navbar-default .navbar-nav > .disabled > a, 
 .navbar-default .navbar-nav > .disabled > a:hover, 
 .navbar-default .navbar-nav > .disabled > a:focus {
-    color: #222;
+    color: #9DABBA;
     background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #d26969;
+  border: none;
 }
 /* Nav */
-
 /* Header */
 .header {
     display: table;
