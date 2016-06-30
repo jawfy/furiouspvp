@@ -63,7 +63,7 @@
 
           <form action="https://formspree.io/contact@jackearsman.com"method="POST">
             <div class="form-group">
-            <input type="hidden" name="_subject" value="Someone's contacted you..." />
+              <input type="hidden" name="_subject" value="Someone's contacted you..." />
 
               <input type="text" name="Name" placeholder="Full Name" style="padding: 15px; border-radius: 10px; border: none; box-shadow: 0px 0px 15px rgba(0,0,0,0.175);" required>
             </div>
@@ -74,6 +74,10 @@
 
             <div class="form-group">
               <textarea name="Message" placeholder="Message" style="padding: 15px; border-radius: 10px; border: none; box-shadow: 0px 0px 15px rgba(0,0,0,0.175);" required></textarea>
+            </div>
+
+            <div class="form-group">
+              <input type="file" name="File" style="background-color: #fff; text-align: center;">
             </div>
 
               <button class="btn btn-md btn-submit" name="_next" value="http://jackearsman.com/thanks.html"type="submit">Send</button>
