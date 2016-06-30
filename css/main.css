@@ -5,6 +5,7 @@ body {
 }
 
 body {
+  background-color: #f1f1f1;
   font-family: 'europa', sans-serif
 }
 
@@ -28,10 +29,10 @@ body {
 }
 
 .navbar-default .navbar-brand {
-    color: #9DABBA;
-    transition: all 0.5s ease;
-    font-weight: 900;
-    font-size: 17pt;
+  color: #9DABBA;
+  transition: all 0.5s ease;
+  font-weight: 900;
+  font-size: 17pt;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -42,18 +43,18 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #9DABBA;
-    font-weight: 100;
-    transition: all 0.5s ease;
-    font-size: 12pt;
+  color: #9DABBA;
+  font-weight: 100;
+  transition: all 0.5s ease;
+  font-size: 12pt;
 }
 
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #d26969;
-    transition: all 0.5s ease;
-    background-color: transparent;
+  color: #d26969;
+  transition: all 0.5s ease;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -66,33 +67,33 @@ body {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #842e2e;
+  background-color: #842e2e;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:active {
-    background-color: #d26969;
-    transition: all 0.5s ease;
+  background-color: #d26969;
+  transition: all 0.5s ease;
 }
 
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #d26969;
-    background-color: transparent;
+  color: #d26969;
+  background-color: transparent;
 }
 
 
 .dropdown-menu > li > a {
-    display: block;
-    padding: 20px 20px;
-    font-weight: 900;
-    clear: both;
-    letter-spacing: 0.8px;
-    line-height: 1.42857143;
-    color: #a14e4e;
-    white-space: nowrap;
+  display: block;
+  padding: 20px 20px;
+  font-weight: 900;
+  clear: both;
+  letter-spacing: 0.8px;
+  line-height: 1.42857143;
+  color: #a14e4e;
+  white-space: nowrap;
 }
 
 .dropdown-menu > li > a:hover,
@@ -129,7 +130,7 @@ body {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #a14e4e;
+    color: #a14e4e;
   }
 }
 
