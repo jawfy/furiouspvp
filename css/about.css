@@ -31,7 +31,7 @@ body {
 
 .navbar-default .navbar-brand {
     color: #222;
-    font-weight: 900;
+    font-weight: 100;
     transition: all 0.5s ease;
     font-size: 17pt;
 }

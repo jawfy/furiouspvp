@@ -22,7 +22,7 @@ body {
 .navbar-default {
   margin-bottom: 0px;
   padding: 50px;
-  background-color: #f1f1f1;
+  background-color: transparent;
   font-weight: 100;
   font-size: 10pt;
   border: none;
@@ -31,13 +31,13 @@ body {
 .navbar-default .navbar-brand {
   color: #9DABBA;
   transition: all 0.5s ease;
-  font-weight: 900;
+  font-weight: 100;
   font-size: 17pt;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #d26969;
+  color: #4ec89b;
   transition: all 0.5s ease;
   background-color: transparent;
 }
@@ -52,14 +52,14 @@ body {
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #d26969;
+  color: #4ec89b;
   transition: all 0.5s ease;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #d26969;
+  color: #4ec89b;
   background-color: transparent;
   font-weight: 100;
   transition: all 0.5s ease;
@@ -80,7 +80,7 @@ body {
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #d26969;
+  color: #4ec89b;
   background-color: transparent;
 }
 
@@ -88,20 +88,20 @@ body {
 .dropdown-menu > li > a {
   display: block;
   padding: 20px 20px;
-  font-weight: 900;
+  font-weight: 100;
   clear: both;
   letter-spacing: 0.8px;
   line-height: 1.42857143;
-  color: #a14e4e;
+  color: #fff;
   white-space: nowrap;
 }
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #fff;
-  font-weight: 900;
+  font-weight: 100;
   text-decoration: none;
-  background-color: #d26969;
+  background-color: #33a27a;
   transition: all 0.5s ease;
 }
 
@@ -113,14 +113,14 @@ body {
   display: none;
   float: left;
   min-width: 150px;
-  font-weight: 900;
+  font-weight: 100;
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 14px;
   text-align: left;
   list-style: none;
   color: #fff;
-  background-color: #e57777;
+  background-color: #4ec89b;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border-radius: 0px;
@@ -205,14 +205,13 @@ a:active {
 
 /* Buttons */
 .btn-contact {
+  margin-right: 5px;
   padding: 15px 20px;
   color: #fff;
   background: #4ec89b;
-  font-size: 18px;
   transition: all 0.5s ease-in-out;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.175);
   border: none;
-  width: 15%;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 0px;
   border-top-right-radius: 20px;
@@ -224,12 +223,45 @@ a:active {
 .btn-contact:active {
   padding: 15px 20px;
   color: #fff;
+  margin-right: 5px;
   background: #33a27a;
-  font-size: 18px;
   transition: all 0.5s ease-in-out;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.175);
   border: none;
-  width: 15%;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+.btn-work {
+  margin-left: 5px;
+  padding: 15px 20px;
+  color: #222;
+  background: #fefefe;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.175);
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.btn-work:hover,
+.btn-work:focus,
+.btn-work:active {
+  padding: 15px 20px;
+  margin-left: 5px;
+  color: #222;
+  background: #eee;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.175);
+  border: none;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 0px;
   border-top-right-radius: 20px;
