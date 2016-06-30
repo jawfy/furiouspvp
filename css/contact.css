@@ -256,7 +256,7 @@ body {
 }
 
 .btn-back {
-  padding: 15px 20px;
+  padding: 15px 50px;
   color: #fff;
   background: #4ec89b;
   font-size: 18px;
@@ -272,14 +272,13 @@ body {
 .btn-back:hover,
 .btn-back:focus,
 .btn-back:active {
-  padding: 15px 20px;
+  padding: 15px 50px;
   color: #fff;
   background: #33a27a;
   font-size: 18px;
   transition: all 0.5s ease-in-out;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.175);
   border: none;
-
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
