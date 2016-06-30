@@ -185,6 +185,9 @@ body {
 /* Header */
 .input {
 	font-size: 50px;
+  border-top-left-radius: 15px; 
+  border-top-right-radius: 15px; 
+  border-bottom-right-radius: 15px;
 }
 
 .btn-submit {
@@ -223,9 +226,11 @@ body {
   font-size: 18px;
   transition: all 0.5s ease-in-out;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.175);
-  border-radius: 10px;
   border: none;
   width: 15%;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .btn-back:hover,
@@ -237,9 +242,11 @@ body {
   font-size: 18px;
   transition: all 0.5s ease-in-out;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.175);
-  border-radius: 10px;
   border: none;
   width: 15%;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 input {
