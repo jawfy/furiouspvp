@@ -1,0 +1,231 @@
+/* Body */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+  font-family: "Brandon Grotesque", sans-serif;
+}
+/* Body */
+
+/* Font Import */
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('Brandon-Lgt.oft') format('opentype');
+}
+/* Font Import */
+
+/* Misc */
+::selection {
+  background: #ff8e8e; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ff8e8e; /* Gecko Browsers */
+}
+/* Misc */
+
+/* Nav */
+.navbar-default {
+  margin-bottom: 0px;
+  padding: 50px;
+  font-family: "Muli", sans-serif;
+  background-color: transparent;
+  font-weight: 900;
+  font-size: 10pt;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #9DABBA;
+    font-weight: 900;
+    font-size: 17pt;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #d26969;
+  transition: all 0.5s ease;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #9DABBA;
+    font-weight: 900;
+    transition: all 0.5s ease;
+    font-size: 12pt;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #d26969;
+    transition: all 0.5s ease;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #d26969;
+  background-color: transparent;
+  font-weight: 900;
+  transition: all 0.5s ease;
+  font-size: 12pt;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #842e2e;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:active {
+    background-color: #d26969;
+    transition: all 0.5s ease;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #d26969;
+    background-color: transparent;
+}
+
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 20px 20px;
+    font-weight: 900;
+    clear: both;
+    letter-spacing: 0.8px;
+    line-height: 1.42857143;
+    color: #a14e4e;
+    white-space: nowrap;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+  background-color: #d26969;
+  transition: all 0.5s ease;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 150px;
+  font-weight: 900;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  color: #fff;
+  background-color: #e57777;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 10px 12px rgba(0, 0, 0, .2);
+          box-shadow: 0 10px 12px rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: #a14e4e;
+  }
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    border: none;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav > .disabled > a, 
+.navbar-default .navbar-nav > .disabled > a:hover, 
+.navbar-default .navbar-nav > .disabled > a:focus {
+    color: #9DABBA;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #d26969;
+}
+/* Nav */
+
+/* Header */
+/* Header */
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    color: #222;
+    height: 100%;
+    background: #f1f1f1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.h3-header {
+  margin-top: -10px;
+  color: #9DABBA; 
+}
+/* Header */
+.input {
+	font-size: 50px;
+}
+
+.btn-submit {
+	width: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.175);
+	background: #4ec89b;
+	font-size: 18px;
+	font-family: inherit;
+	transition: all 0.5s ease-in-out;
+	color: #fff;
+}
+
+.btn-submit:hover,
+.btn-submit:focus,
+.btn-submit:active {
+	width: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: none;
+	background: #33a27a;
+	font-family: inherit;
+	color: #fff;
+	transition: all 0.5s ease-in-out;
+}
+input {
+	width: 50%;
+	font-size: 18px; 
+	padding: 15px; 
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.175);
+}
+
+textarea {
+	font-size: 18px;
+}

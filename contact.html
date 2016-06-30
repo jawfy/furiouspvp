@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>JackEarsman - Welcome!</title>
+    <title>JackEarsman - Contact Me</title>
 
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
 
     <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
@@ -29,13 +29,13 @@
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-            <li class="active">
+            <li class="">
               <a class="page-scroll" href="http://jackearsman.com/">Home</a>
             </li>
             <li class="">
               <a class="page-scroll" href="http://jackearsman.com/about">About</a>
             </li>
-            <li class="disabled">
+            <li class="active">
               <a class="page-scroll" href="#services">Contact Me</a>
             </li>
             <li class="">
@@ -57,17 +57,32 @@
     <header id="top" class="header">
       <div class="text-vertical-center">
         <div class="container">
-            <h2 class="h1-h">Hi, Im Jack!</h2>
-            <h3 style="margin-top: -10px; color: #9DABBA;">Designer &amp; Website Developer.</h3>
+
+          <h2>Contact Me</h2>
+          <h3 class="h3-header">This is the best place to reach me.</h3>
+
+          <br>
+
+          <form action="https://formspree.io/me@jackearsman.com"method="POST">
+            <div class="form-group name">
+              <input type="text" name="Name" placeholder="Full Name" style="width: 50%; padding: 15px; border-radius: 10px; border: none; box-shadow: 0px 0px 15px rgba(0,0,0,0.175);">
+            </div>
+
+            <div class="form-group email">
+              <input type="email" name="Email" placeholder="Email Adress" style="width: 50%; padding: 15px; border-radius: 10px; border: none; box-shadow: 0px 0px 15px rgba(0,0,0,0.175);">
+            </div>
+
+            <div class="form-group send">
+              <textarea name="Message" placeholder="Message" style="width: 50%; padding: 15px; border-radius: 10px; border: none; box-shadow: 0px 0px 15px rgba(0,0,0,0.175);"></textarea>
+            </div>
+              <button class="btn btn-md btn-submit" type="submit" name="Send">Send</button>
+          </form>
+
         </div>
       </div>
     </header>
 
-    <div class="contact">
-    </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>
 </html>
