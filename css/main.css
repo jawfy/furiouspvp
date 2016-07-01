@@ -235,7 +235,7 @@ a:active {
 /* Buttons */
 .btn-contact {
   margin-right: 5px;
-  padding: 15px 20px;
+  padding: 15px 30px;
   font-size: 18px;
   color: #fff;
   background: #4ec89b;
@@ -251,7 +251,7 @@ a:active {
 .btn-contact:hover,
 .btn-contact:focus,
 .btn-contact:active {
-  padding: 15px 20px;
+  padding: 15px 30px;
   color: #fff;
   font-size: 18px;
   margin-right: 5px;
@@ -271,7 +271,7 @@ a:active {
 
 .btn-work {
   margin-left: 5px;
-  padding: 15px 28px;
+  padding: 15px 40px;
   font-size: 18px;
   color: #222;
   background: #fefefe;
@@ -287,7 +287,7 @@ a:active {
 .btn-work:hover,
 .btn-work:focus,
 .btn-work:active {
-  padding: 15px 28px;
+  padding: 15px 40px;
   margin-left: 5px;
   color: #222;
   background: #eee;
