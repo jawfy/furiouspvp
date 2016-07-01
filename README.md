@@ -8,6 +8,6 @@
 
 <h3>Links:</h3>
 <h4><a href="https://dribbble.com/jawfy">Dribbble</a></h4>
-<h4><a href="http://jackearsman.com">Website</a></h4>
-<h4><a href="https://twitter.com/jawfy">Twitter</a></h4>
+<h4 style="margin-top: -10px;"><a href="http://jackearsman.com">Website</a></h4>
+<h4 tyle="margin-top: -10px;"><a href="https://twitter.com/jawfy">Twitter</a></h4>
 
