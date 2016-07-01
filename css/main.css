@@ -269,7 +269,7 @@ a:active {
 
 .btn-work {
   margin-left: 5px;
-  padding: 15px 20px;
+  padding: 15px 28px;
   color: #222;
   background: #fefefe;
   transition: all 0.5s ease-in-out;
@@ -284,7 +284,7 @@ a:active {
 .btn-work:hover,
 .btn-work:focus,
 .btn-work:active {
-  padding: 15px 20px;
+  padding: 15px 28px;
   margin-left: 5px;
   color: #222;
   background: #eee;
