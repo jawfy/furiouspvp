@@ -279,9 +279,9 @@ a:active {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.175);
   border: none;
   border-top-left-radius: 20px;
-  border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 0px;
 }
 
 .btn-work:hover,
@@ -296,8 +296,8 @@ a:active {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.175);
   border: none;
   border-top-left-radius: 20px;
-  border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 0px;
 }
 /* Buttons */
