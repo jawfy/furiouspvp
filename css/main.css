@@ -4,8 +4,12 @@ body {
     height: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #f1f1f1;
+  background-color: #fff;
   font-family: 'europa', sans-serif
 }
 
@@ -188,6 +192,7 @@ body {
     width: 100%;
     color: #222;
     height: 100%;
+    background-image: url(../img/background.png);
     background: #f1f1f1;
     -webkit-background-size: cover;
     -moz-background-size: cover;
