@@ -107,6 +107,10 @@ body {
   background-color: transparent;
 }
 
+.open > .dropdown-menu {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 
 .dropdown-menu > li > a {
   display: block;
@@ -117,6 +121,8 @@ body {
   line-height: 1.42857143;
   color: #fff;
   white-space: nowrap;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
 }
 
 .dropdown-menu > li > a:hover,

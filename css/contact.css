@@ -318,18 +318,21 @@ textarea {
 @media screen and (min-width: 300px) {
   textarea {
     width: 75%;
+    max-width: 75%;
   }
 }
 
 @media screen and (min-width: 550px) {
   textarea {
     width: 75%;
+    max-width: 75%;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   textarea {
-    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
   }
 }
 
