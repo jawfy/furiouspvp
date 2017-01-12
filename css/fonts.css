@@ -1,0 +1,10 @@
+/* Copyright Jack Earsman */
+/* Coded and designed by Jack Earsman */
+
+/* Applied font */
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+/* Imported font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
