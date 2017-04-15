@@ -10,7 +10,12 @@ body {
 /* Body */
 
 body {
+	background-color: #eee;
 	color: #2d2d2d;
+}
+
+a:active {
+	text-decoration: none;
 }
 
 .home {
@@ -97,3 +102,50 @@ body {
 }
 /* Buttons */
 
+.twitter {
+	opacity: 0.5;
+	padding: 5px;
+	color: #000;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+
+.twitter:active,
+.twitter:hover,
+.twitter:focus {
+	opacity: 1;
+	color: #0084b4;
+}
+
+.dribbble {
+	opacity: 0.5;
+	color: #000;
+	padding: 5px;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+
+.dribbble:active,
+.dribbble:hover,
+.dribbble:focus {
+	opacity: 1;
+	color: #C73B6F;
+}
+
+.youtube {
+	opacity: 0.5;
+	color: #000;
+	padding: 5px;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+
+.youtube:active,
+.youtube:hover,
+.youtube:focus {
+	opacity: 1;
+	color: #bb0000;
+}
