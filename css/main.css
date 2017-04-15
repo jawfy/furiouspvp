@@ -14,8 +14,9 @@ body {
 	color: #2d2d2d;
 }
 
-a:active {
+a {
 	text-decoration: none;
+	color: transparent;
 }
 
 .home {
