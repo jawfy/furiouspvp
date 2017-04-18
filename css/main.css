@@ -78,3 +78,12 @@ body {
 	opacity: 1;
 	color: #bb0000;
 }
+
+::selection {
+  	background: #111;
+  	color: #fff;
+}
+::-moz-selection {
+	color: #fff;
+  	background: #111;
+}
