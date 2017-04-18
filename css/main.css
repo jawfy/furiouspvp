@@ -35,7 +35,6 @@ body {
 	opacity: 0.5;
 	padding: 5px;
 	color: #000;
-	margin-left: -10px;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -78,4 +77,8 @@ body {
 .youtube:focus {
 	opacity: 1;
 	color: #bb0000;
+}
+
+:hover { 
+    background-color: #222;
 }
