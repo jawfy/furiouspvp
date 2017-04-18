@@ -34,7 +34,6 @@ body {
 .twitter {
 	opacity: 0.5;
 	padding: 5px;
-    margin-left: 5px;
 	color: #000;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
