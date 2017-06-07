@@ -1,89 +1,249 @@
-/* Copyright Jack Earsman */
-/* Coded and designed by Jack Earsman */
+/* Copyright Jack Earsman 2017 */
 
-html,
-body {
-    width: 100%;
-    height: 100%;
-}
-
-/* Body */
-
-body {
-	background-color: #eee;
-	color: #2d2d2d;
-}
-
-.home {
-	display: table;
-	position: relative;
-	height: 100%;
+html {
 	width: 100%;
+	height: 100%;
 }
-/* Body */
 
+body {
+	width: 100%;
+	height: 100%;
+}
 
-/* Center */
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.brand-img {
+	width: 20px;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #2d2d2d;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 0px 15px;
+}
+
+.btn-folio {
+	color: #fff;
+	padding: -10px 30px -10px 30px;
+	margin-top: -7px;
+	transition: all 0.1s ease-in-out;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.375);
+	background: #00ff42; /* Old browsers */
+	background: -moz-linear-gradient(top, #00ff42 0%, #00d236 100%);
+	background: -webkit-linear-gradient(top, #00ff42 0%,#00d236 100%);
+	background: linear-gradient(to bottom, #00ff42 0%,#00d236 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff42', endColorstr='#00d236',GradientType=0 );
+}
+
+.btn-folio:focus,
+.btn-folio:hover {
+	color: #fff;
+	margin-top: -10px;
+	box-shadow: 0 10px 40px rgba(0,0,0,0.9);
+	background: #00ff42; /* Old browsers */
+	background: -moz-linear-gradient(top, #00ff42 0%, #00d236 100%);
+	background: -webkit-linear-gradient(top, #00ff42 0%,#00d236 100%);
+	background: linear-gradient(to bottom, #00ff42 0%,#00d236 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff42', endColorstr='#00d236',GradientType=0 );
+}
+
+.btn-hire {
+	color: #fff;
+	padding: -10px 30px -10px 30px;
+	margin-top: -7px;
+	transition: all 0.1s ease-in-out;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.375);
+	background: #00ff42; /* Old browsers */
+	background: -moz-linear-gradient(top, #00ff42 0%, #00d236 100%);
+	background: -webkit-linear-gradient(top, #00ff42 0%,#00d236 100%);
+	background: linear-gradient(to bottom, #00ff42 0%,#00d236 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff42', endColorstr='#00d236',GradientType=0 );
+}
+
+.btn-hire:focus,
+.btn-hire:hover {
+	color: #fff;
+	margin-top: -10px;
+	box-shadow: 0 10px 40px rgba(0,0,0,0.9);
+	background: #00ff42; /* Old browsers */
+	background: -moz-linear-gradient(top, #00ff42 0%, #00d236 100%);
+	background: -webkit-linear-gradient(top, #00ff42 0%,#00d236 100%);
+	background: linear-gradient(to bottom, #00ff42 0%,#00d236 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff42', endColorstr='#00d236',GradientType=0 );
+}
+
+/* Text vertical center */
 .text-vertical-center {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
 }
-/* Center */
 
-.twitter {
-	opacity: 0.5;
-	padding: 5px;
-	color: #000;
-	transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
+#green {
+	color: #00ff42;
+	font-family: 'lato', sans-serif;
 }
 
-.twitter:active,
-.twitter:hover,
-.twitter:focus {
-	opacity: 1;
-	color: #0084b4;
+.wrapper {
+	background-color: #2d2d2d;
+	width: 100%;
+	margin: 0 auto;
+	padding: 50px;
 }
 
-.dribbble {
-	opacity: 0.5;
-	color: #000;
-	padding: 5px;
-	transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
+.header {
+	text-align: left;
+	height: 35%;
+	padding: 100px;
+	margin-bottom: 100px;
 }
 
-.dribbble:active,
-.dribbble:hover,
-.dribbble:focus {
-	opacity: 1;
-	color: #C73B6F;
-}
-
-.youtube {
-	opacity: 0.5;
-	color: #000;
-	padding: 5px;
-	transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-}
-
-.youtube:active,
-.youtube:hover,
-.youtube:focus {
-	opacity: 1;
-	color: #bb0000;
-}
-
-::selection {
-  	background: #111;
-  	color: #fff;
-}
-::-moz-selection {
+.header-text {
 	color: #fff;
-  	background: #111;
+}
+
+.about {
+	background-color: #fff;
+	padding: 50px 100px 50px 100px; 
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.375);
+}
+
+.about-head {
+	margin-bottom: 50px;
+}
+
+.about-me {
+	width: 750px;
+	opacity: 0.6;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+.work {
+	padding: 100px;
+}
+
+.work-head {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+#folio {
+	margin-top: 80px;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.375);
+}
+
+.btn-more {
+	padding: 10px 35px 10px 35px;
+	margin-top: 20px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: transparent;
+	border-radius: 10px;
+	border: 1px solid #00ff42;
+	color: #00ff42;
+	font-family: 'Quicksand', sans-serif;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn-more:focus,
+.btn-more:hover,
+.btn-more:active {
+	color: #fff;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.175);
+}
+
+
+.contact {
+	padding: 100px;
+	margin-top: -100px;
+}
+
+input {
+	padding: 10px 35px 10px 35px;
+	width: 185%;
+}
+
+textarea {
+	width: 185%;
+	max-width: 370%;
+}
+
+.contact {
+	margin-top: -100px;
+	padding: 0px 0px 0px 100px;
+	margin-bottom: 100px;
+}
+
+.contact-head {
+	margin-top: 100px;
+	margin-bottom: 25px;
+	color: #fff;
+}
+
+.icon-1 {
+	color: #e8308c;
+	transition: all 0.3s ease-in-out;
+}
+
+.icon-1:focus,
+.icon-1:hover,
+.icon-1:active {
+	color: #fff;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.5);
+}
+
+.icon-2 {
+	color: #32CDFB;
+	transition: all 0.3s ease-in-out;
+}
+
+.icon-2:focus,
+.icon-2:hover,
+.icon-2:active {
+	color: #fff;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.5);
+}
+
+.icon-3 {
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.icon-3:focus,
+.icon-3:hover,
+.icon-3:active {
+	color: #00ff48;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.5);
+}
+
+.footer {
+	padding: 0px 0px 0px 100px;
+}
+
+.footer-head {
+	color: #fff;
 }
