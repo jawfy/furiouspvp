@@ -38,6 +38,14 @@
 ::-webkit-scrollbar {
     width: 0px;
 }
+
+::-moz-scrollbar {
+    width: 0px;
+}
+
+::scrollbar {
+  width: 0px;
+}
  
 ::-webkit-scrollbar-track {
     border-radius: 10px;
