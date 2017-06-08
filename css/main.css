@@ -320,7 +320,8 @@ input[type="reset"] {
   display: none;
   padding: 20px;
   text-align: center;
-  background-color: #2d2d2d;
+  background-color: transparent;
+  border: 1px solid #00ff42;
   color: #fff;
   border-radius: 10px;
   box-shadow: 0px 10px 40px rgba(0,0,0,0.175);
@@ -347,7 +348,7 @@ label {
   line-height: 1.428571429;
   color: #333333;
   vertical-align: middle;
-  background-color: #ffffff;
+  background-color: #eee;
   border: 1px solid #cccccc;
 }
 .w-input:-moz-placeholder,
@@ -384,6 +385,7 @@ fieldset[disabled] .w-select {
 textarea.w-input,
 textarea.w-select {
   height: auto;
+  max-width: 100%;
 }
 .w-select {
   background-image: -webkit-linear-gradient(white 0%, #f3f3f3 100%);
