@@ -2017,5 +2017,5 @@
  * Webflow: Interactions: Init
  */
 Webflow.require('ix').init([
-  {"slug":"new-interaction","name":"New Interaction","value":{"style":{"height":"125px"},"triggers":[{"type":"scroll","preload":true,"offsetTop":"0%","offsetBot":"10%","stepsA":[{"height":"125px","transition":"height 1000ms ease 0"},{"opacity":1,"height":"60px","transition":"height 1000ms ease 0, opacity 200 ease 0"}],"stepsB":[]}]}}
+  {"slug":"hover","name":"Hover","value":{"style":{"opacity":0.51},"triggers":[{"type":"hover","stepsA":[{"opacity":1,"transition":"opacity 200 ease 0"}],"stepsB":[{"opacity":0.5,"transition":"opacity 200 ease 0"}]}]}}
 ]);
