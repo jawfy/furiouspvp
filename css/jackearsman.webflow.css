@@ -79,6 +79,10 @@ p {
   line-height: 14px;
 }
 
+.heading-2.heading {
+  color: rgba(51, 51, 51, 0);
+}
+
 .nav {
   position: fixed;
   top: 0px;
@@ -89,6 +93,7 @@ p {
   display: flex;
   width: 100%;
   height: 100px;
+  padding-left: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -112,11 +117,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   margin-top: 10px;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -130,7 +135,7 @@ p {
   -ms-flex: 0 auto;
   flex: 0 auto;
   font-family: Lato, sans-serif;
-  color: rgba(51, 51, 51, .26);
+  color: rgba(51, 51, 51, .56);
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -153,12 +158,24 @@ p {
   text-decoration: none;
 }
 
+.twitter {
+  color: rgba(27, 135, 229, .9);
+  font-style: italic;
+  text-decoration: none;
+}
+
 html.w-mod-js *[data-ix="hover"] {
   opacity: 0.5;
 }
 
 html.w-mod-js *[data-ix="scroll-load"] {
   opacity: 0;
+}
+
+html.w-mod-js *[data-ix="new-interaction"] {
+  opacity: 0.95;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 991px) {
