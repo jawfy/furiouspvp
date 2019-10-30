@@ -17,6 +17,16 @@ body {
 	font-weight: 400;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: #888888;
+  background: #dddddd;
+}
+
+::selection {
+  color: #888888;
+  background: #dddddd;
+}
+
 .home {
 	width: 100%;
     height: 100%;
