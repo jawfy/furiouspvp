@@ -1830,7 +1830,7 @@ figcaption {
 .styleguide-block {
   display: block;
   margin-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1883,6 +1883,10 @@ figcaption {
   text-align: center;
 }
 
+.styleguide-content-wrap.logo-assets {
+  margin-bottom: 40px;
+}
+
 .paragraph-small {
   font-size: 14px;
   line-height: 26px;
@@ -1894,7 +1898,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   height: 460px;
-  padding: 30px;
+  padding: 30px 150px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1904,13 +1908,13 @@ figcaption {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #1a1b1f;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #13b5f1;
   color: #fff;
-  text-align: center;
+  text-align: left;
 }
 
 .styleguide-button-wrap {
@@ -1919,13 +1923,23 @@ figcaption {
 }
 
 .heading-jumbo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: Poppins, sans-serif;
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 48px;
+  line-height: 45px;
   font-weight: 600;
+  text-align: left;
   text-transform: none;
+}
+
+.heading-jumbo.pop-norm {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
 }
 
 .paragraph-tiny {
@@ -2043,11 +2057,17 @@ figcaption {
 }
 
 .paragraph-bigger.cc-bigger-light {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   opacity: 0.6;
+  text-align: left;
 }
 
 .divider {
   height: 1px;
+  margin-top: 25px;
   background-color: #eee;
 }
 
@@ -2610,7 +2630,7 @@ figcaption {
 .email-section {
   width: 70%;
   margin: 0px auto 0px 0px;
-  padding: 60px 0px 60px 70px;
+  padding: 60px 0px;
   text-align: center;
 }
 
@@ -2761,8 +2781,25 @@ figcaption {
 }
 
 .heading-7 {
-  font-size: 38px;
-  line-height: 50px;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.heading-7.semi-bld {
+  padding-left: 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.heading-7.color-schem-hex {
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+.heading-7.color-scheme-title {
+  margin-bottom: 0px;
+  line-height: 17px;
 }
 
 .text-span {
@@ -2781,7 +2818,11 @@ figcaption {
 
 .text-span-4 {
   text-decoration: none;
-  text-transform: uppercase;
+}
+
+.text-span-4.color-scheme-title {
+  padding-left: 0px;
+  font-size: 13px;
 }
 
 .grid {
@@ -2829,6 +2870,76 @@ figcaption {
   flex: 0 auto;
 }
 
+.column {
+  padding-right: 20px;
+  padding-left: 0px;
+}
+
+.column-2 {
+  padding-right: 0px;
+  padding-left: 20px;
+}
+
+.image-3 {
+  display: inline-block;
+  text-align: left;
+}
+
+.column-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  background-color: transparent;
+}
+
+.column-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 0px;
+  background-color: transparent;
+}
+
+.link-block-2 {
+  text-align: left;
+}
+
+.column-5 {
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: transparent;
+}
+
+.div-block-3 {
+  height: 165px;
+  background-color: #00d2ff;
+}
+
+.div-block-3._2 {
+  background-color: #3a7bd5;
+}
+
+.text-span-5 {
+  padding-left: 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.column-6 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 @media screen and (max-width: 991px) {
   .styleguide-block {
     text-align: center;
@@ -2856,6 +2967,7 @@ figcaption {
     padding-left: 60px;
   }
   .styleguide-content-wrap {
+    margin-bottom: 80px;
     padding-right: 35px;
     padding-left: 35px;
   }
@@ -2878,7 +2990,7 @@ figcaption {
     overflow: auto;
   }
   .section {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
   .section.cc-contact {
     overflow: hidden;
@@ -3073,6 +3185,9 @@ figcaption {
     grid-template-rows: auto auto auto;
     text-align: center;
   }
+  .detail-header-image {
+    margin-bottom: 0px;
+  }
   .project-description-grid {
     width: 80%;
     margin-right: auto;
@@ -3086,9 +3201,10 @@ figcaption {
     text-align: center;
   }
   .email-section {
+    display: none;
     width: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     padding: 0px;
   }
@@ -3120,6 +3236,9 @@ figcaption {
   .text-span-4 {
     text-align: left;
   }
+  .div-block-2 {
+    margin-bottom: 30px;
+  }
   .experience-tablet-mob {
     display: none;
   }
@@ -3129,6 +3248,15 @@ figcaption {
   }
   .image-2 {
     background-color: transparent;
+  }
+  .div-block-4 {
+    margin-bottom: 30px;
+  }
+  .div-block-5 {
+    margin-bottom: 30px;
+  }
+  .div-block-6 {
+    margin-bottom: 0px;
   }
 }
 
@@ -3148,9 +3276,13 @@ figcaption {
   .container.container-tablet-exp {
     padding-left: 0px;
   }
+  .styleguide-header-wrap {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
   .heading-jumbo {
     margin-bottom: 0px;
-    font-size: 50px;
+    font-size: 47px;
     line-height: 64px;
   }
   .paragraph-tiny.cc-paragraph-tiny-light {
@@ -3159,12 +3291,17 @@ figcaption {
   .paragraph-light {
     display: none;
     overflow: visible;
+    font-size: 14px;
+    line-height: 20px;
     text-align: center;
     -o-object-fit: fill;
     object-fit: fill;
   }
   .paragraph-light.cc-position-name {
     display: block;
+    text-align: left;
+  }
+  .paragraph-light.cc-position-name.tab-role-name {
     text-align: center;
   }
   .paragraph-light.p-2 {
@@ -3191,6 +3328,7 @@ figcaption {
   }
   .position-name-text {
     display: block;
+    margin-top: 40px;
     text-align: center;
   }
   .work-experience-grid {
@@ -3198,6 +3336,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3217,12 +3356,13 @@ figcaption {
     grid-template-rows: auto auto;
   }
   .work-position-wrap {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
   .work-image.cc-work-4 {
     background-size: 1200px;
   }
   .project-name-link {
+    display: block;
     font-size: 16px;
     line-height: 28px;
   }
@@ -3314,6 +3454,9 @@ figcaption {
     align-items: stretch;
     grid-row-gap: 50px;
   }
+  .detail-header-image {
+    margin-bottom: 0px;
+  }
   .project-description-grid {
     width: 70%;
     max-width: 470px;
@@ -3326,8 +3469,8 @@ figcaption {
   .email-section {
     width: 80%;
     max-width: 470px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
   }
   .email-link {
@@ -3361,23 +3504,57 @@ figcaption {
     object-fit: fill;
   }
   .heading-7 {
-    display: none;
-    font-size: 32px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0px;
+    font-size: 17px;
     line-height: 41px;
+  }
+  .heading-7.semi-bld {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0px;
+    font-size: 17px;
+  }
+  .text-span-4.color-scheme-title {
+    margin-top: 15px;
+    padding-left: 20px;
   }
   .grid {
     grid-column-gap: 60px;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
+  .div-block-2 {
+    margin-bottom: 20px;
+  }
   .experience-tablet-mob {
     display: block;
     padding-right: 20px;
     padding-left: 20px;
     color: rgba(51, 51, 51, 0.6);
+    font-size: 15px;
+    line-height: 24px;
   }
   .link-block {
     display: none;
+  }
+  .column-2 {
+    padding-left: 0px;
+  }
+  .column-5 {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+  .text-span-5 {
+    padding-left: 20px;
+  }
+  .column-6 {
+    background-color: rgba(0, 0, 0, 0.06);
   }
 }
 
@@ -3387,12 +3564,35 @@ figcaption {
     max-width: none;
   }
   .heading-jumbo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-bottom: 0px;
-    font-size: 36px;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    font-size: 21px;
     line-height: 48px;
-    text-align: center;
+    text-align: left;
   }
   .label.cc-styleguide-label {
+    text-align: left;
+  }
+  .paragraph-light.cc-position-name {
+    display: none;
+    text-align: center;
+  }
+  .paragraph-light.cc-position-name.tab-role-name {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
   }
   .paragraph-light.p-2 {
@@ -3417,7 +3617,14 @@ figcaption {
     flex: 0 0 auto;
   }
   .position-name-text {
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+  }
+  .work-experience-grid {
+    margin-bottom: 0px;
   }
   .work-image.cc-work-4 {
     background-position: 0% 50%;
@@ -3471,19 +3678,19 @@ figcaption {
     width: 100%;
     max-width: none;
   }
+  .detail-header-image {
+    margin-bottom: 0px;
+  }
   .project-description-grid {
     width: 100%;
     max-width: none;
   }
   .email-section {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     width: 100%;
     max-width: none;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3521,7 +3728,16 @@ figcaption {
     text-align: center;
   }
   .heading-7 {
-    display: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .heading-7.semi-bld {
+    font-size: 12px;
+    line-height: 16px;
   }
   .grid {
     display: block;
@@ -3529,8 +3745,9 @@ figcaption {
   .experience-tablet-mob {
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
   }
   .image {
     margin-bottom: 36px;
