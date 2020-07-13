@@ -2825,6 +2825,10 @@ figcaption {
   .container.container-tablet-exp {
     padding-left: 60px;
   }
+  .styleguide-content-wrap {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
   .heading-jumbo {
     font-size: 56px;
     line-height: 70px;
@@ -3085,6 +3089,7 @@ figcaption {
     padding-left: 0px;
   }
   .heading-jumbo {
+    margin-bottom: 0px;
     font-size: 50px;
     line-height: 64px;
   }
@@ -3295,6 +3300,7 @@ figcaption {
     object-fit: fill;
   }
   .heading-7 {
+    display: none;
     font-size: 32px;
     line-height: 41px;
   }
