@@ -3211,7 +3211,7 @@ figcaption {
     text-align: center;
   }
   .email-section {
-    display: none;
+    display: block;
     width: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -3345,7 +3345,7 @@ figcaption {
   .position-name-text {
     display: block;
     margin-top: 40px;
-    text-align: center;
+    text-align: left;
   }
   .work-experience-grid {
     display: -webkit-box;
@@ -3482,16 +3482,19 @@ figcaption {
   .detail-image {
     margin-bottom: 0px;
   }
+  .detail-image.bottom-img-knights {
+    margin-bottom: 20px;
+  }
   .email-section {
     width: 80%;
     max-width: 470px;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 50px;
     text-align: center;
   }
   .email-link {
     font-size: 32px;
-    line-height: 48px;
+    line-height: 28px;
     text-align: left;
   }
   .utility-page-wrap {
@@ -3510,11 +3513,14 @@ figcaption {
     text-align: center;
   }
   .heading-5 {
+    font-size: 25px;
+    line-height: 27px;
     text-align: left;
   }
   .paragraph-3 {
     overflow: visible;
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 11px;
     text-align: left;
     -o-object-fit: fill;
     object-fit: fill;
@@ -3640,11 +3646,14 @@ figcaption {
     flex: 0 0 auto;
   }
   .position-name-text {
+    display: none;
+    text-align: center;
+  }
+  .position-name-text.role-txt-mob-show {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    text-align: center;
   }
   .work-experience-grid {
     margin-bottom: 0px;
