@@ -3289,7 +3289,10 @@ figcaption {
     text-align: center;
   }
   .paragraph-light {
-    display: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     overflow: visible;
     font-size: 14px;
     line-height: 20px;
@@ -3308,6 +3311,9 @@ figcaption {
     overflow: hidden;
     -o-object-fit: none;
     object-fit: none;
+  }
+  .paragraph-light.n-s-hide {
+    display: none;
   }
   .section {
     margin-right: 15px;
@@ -3520,6 +3526,9 @@ figcaption {
     margin-top: 0px;
     font-size: 17px;
   }
+  .heading-7.color-schem-hex.clr-hex-tab {
+    margin-top: -7px;
+  }
   .text-span-4.color-scheme-title {
     margin-top: 15px;
     padding-left: 20px;
@@ -3551,6 +3560,7 @@ figcaption {
     background-color: rgba(0, 0, 0, 0.06);
   }
   .text-span-5 {
+    padding-top: 0px;
     padding-left: 20px;
   }
   .column-6 {
@@ -3739,6 +3749,9 @@ figcaption {
     font-size: 12px;
     line-height: 16px;
   }
+  .heading-7.color-schem-hex.clr-hex-tab {
+    margin-top: 3px;
+  }
   .grid {
     display: block;
   }
@@ -3751,6 +3764,9 @@ figcaption {
   }
   .image {
     margin-bottom: 36px;
+  }
+  .text-span-5 {
+    font-size: 17px;
   }
 }
 
