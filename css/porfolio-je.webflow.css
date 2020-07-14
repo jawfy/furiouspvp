@@ -3495,7 +3495,7 @@ figcaption {
   .email-link {
     font-size: 32px;
     line-height: 28px;
-    text-align: left;
+    text-align: center;
   }
   .utility-page-wrap {
     padding: 15px;
@@ -3507,9 +3507,13 @@ figcaption {
     text-align: center;
   }
   .heading-3 {
+    font-size: 26px;
+    line-height: 28px;
     text-align: center;
   }
   .paragraph {
+    font-size: 14px;
+    line-height: 20px;
     text-align: center;
   }
   .heading-5 {
