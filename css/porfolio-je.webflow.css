@@ -1929,6 +1929,19 @@ figcaption {
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   font-family: Poppins, sans-serif;
   font-size: 48px;
   line-height: 52px;
@@ -1975,6 +1988,7 @@ figcaption {
 }
 
 .paragraph-light {
+  float: none;
   opacity: 0.6;
   font-family: Poppins, sans-serif;
   color: #1a1b1f;
@@ -1988,6 +2002,10 @@ figcaption {
 
 .paragraph-light.p-2 {
   overflow: auto;
+}
+
+.paragraph-light.p-resume {
+  text-align: right;
 }
 
 .section {
@@ -2007,6 +2025,12 @@ figcaption {
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.section.resume-sec {
+  margin-top: 130px;
+  margin-right: 130px;
+  margin-left: 130px;
 }
 
 .button {
@@ -2945,6 +2969,10 @@ figcaption {
 .column-6 {
   padding-right: 0px;
   padding-left: 0px;
+}
+
+.image-4 {
+  width: 250px;
 }
 
 @media screen and (max-width: 991px) {
