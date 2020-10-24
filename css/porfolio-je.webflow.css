@@ -1948,6 +1948,7 @@ figcaption {
   font-weight: 600;
   text-align: left;
   text-transform: none;
+  text-shadow: 0 8px 9px rgba(0, 0, 0, 0.11);
 }
 
 .heading-jumbo.pop-norm {
@@ -2031,6 +2032,11 @@ figcaption {
   margin-top: 130px;
   margin-right: 130px;
   margin-left: 130px;
+}
+
+.section.section-work {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .button {
@@ -2218,6 +2224,11 @@ figcaption {
   text-transform: none;
 }
 
+.position-name-text.role-txt-mob-show {
+  text-decoration: none;
+  text-shadow: 0 8px 9px rgba(0, 0, 0, 0.11);
+}
+
 .work-description {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2291,7 +2302,7 @@ figcaption {
   -ms-flex-align: stretch;
   align-items: stretch;
   background-color: #f4f4f4;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
   background-position: 50% 50%;
   background-size: cover;
   text-align: center;
@@ -2307,7 +2318,7 @@ figcaption {
 }
 
 .work-image.cc-work-1 {
-  background-image: url('../images/fdhfjhdjehsjfehs.png');
+  background-image: url('../images/Pittsburgh-Knights.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2315,7 +2326,7 @@ figcaption {
 }
 
 .work-image.cc-work-2 {
-  background-image: url('../images/sfddsfdsgsd.png');
+  background-image: url('../images/Moray-Sports-Centre.jpg');
   background-size: cover;
 }
 
@@ -2327,7 +2338,7 @@ figcaption {
 }
 
 .work-image.cc-work-3 {
-  background-image: url('../images/fdsfsdgfdsfgfds.png');
+  background-image: url('../images/DIG.jpg');
   background-size: cover;
 }
 
@@ -2338,6 +2349,7 @@ figcaption {
   font-weight: 600;
   text-align: left;
   text-decoration: none;
+  text-shadow: 0 8px 9px rgba(0, 0, 0, 0.11);
 }
 
 .project-name-link:hover {
@@ -2770,7 +2782,9 @@ figcaption {
 }
 
 .heading {
+  margin-bottom: 40px;
   font-weight: 600;
+  text-shadow: 0 8px 9px rgba(0, 0, 0, 0.11);
 }
 
 .body-2 {
@@ -2886,6 +2900,7 @@ figcaption {
 
 .div-block-2 {
   background-color: transparent;
+  box-shadow: 0 20px 19px -19px rgba(0, 0, 0, 0.04);
 }
 
 .experience-tablet-mob {
@@ -2971,8 +2986,89 @@ figcaption {
   padding-left: 0px;
 }
 
+.div-block-4 {
+  box-shadow: 0 20px 19px -19px rgba(0, 0, 0, 0.04);
+}
+
+.div-block-5 {
+  box-shadow: 0 20px 19px -19px rgba(0, 0, 0, 0.04);
+}
+
+.div-block-6 {
+  box-shadow: 0 20px 20px -19px rgba(0, 0, 0, 0.04);
+}
+
 .image-4 {
   width: 250px;
+}
+
+.form {
+  text-align: left;
+}
+
+.field-label {
+  font-weight: 600;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.field-label-2 {
+  padding-top: 15px;
+  font-weight: 600;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.submit-button {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 0px;
+  background-color: #14b4f1;
+  box-shadow: 0 6px 12px -3px rgba(20, 180, 241, 0.49);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.text-field-2 {
+  padding-left: 0px;
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: #000 #000 rgba(0, 0, 0, 0.2);
+}
+
+.text-field-3 {
+  padding-left: 0px;
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: #000 #000 rgba(0, 0, 0, 0.2);
+}
+
+.textarea {
+  max-width: 100%;
+  min-width: 100%;
+  padding-left: 0px;
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: #000 #000 rgba(0, 0, 0, 0.2);
+}
+
+.success-message {
+  background-color: hsla(0, 0%, 86.7%, 0.34);
+}
+
+.error-message {
+  margin-top: 22px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 100%, 73%, 0.4);
+  box-shadow: 0 11px 20px -8px rgba(255, 0, 0, 0.14);
+}
+
+.link-block-3 {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -2999,6 +3095,7 @@ figcaption {
     background-color: transparent;
   }
   .container.container-tablet-exp {
+    padding-right: 60px;
     padding-left: 60px;
   }
   .styleguide-content-wrap {
@@ -3296,6 +3393,10 @@ figcaption {
   .div-block-6 {
     margin-bottom: 0px;
   }
+  .form-block {
+    margin-right: 0px;
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3312,7 +3413,7 @@ figcaption {
     text-align: center;
   }
   .container.container-tablet-exp {
-    padding-left: 0px;
+    padding-left: 60px;
   }
   .styleguide-header-wrap {
     padding-right: 35px;
@@ -3532,7 +3633,11 @@ figcaption {
     padding: 30px;
   }
   .heading {
+    margin-bottom: 15px;
     text-align: center;
+  }
+  .heading.heading-form {
+    text-align: left;
   }
   .heading-3 {
     font-size: 26px;
@@ -3623,6 +3728,10 @@ figcaption {
   .rich-text {
     width: 100%;
     max-width: none;
+  }
+  .container.container-tablet-exp {
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .heading-jumbo {
     display: -webkit-box;
@@ -3771,6 +3880,14 @@ figcaption {
     line-height: 30px;
     text-align: center;
   }
+  .heading {
+    margin-bottom: 4px;
+    font-size: 21px;
+    text-align: left;
+  }
+  .heading.heading-home {
+    text-align: center;
+  }
   .heading-4 {
     text-align: center;
   }
@@ -3821,6 +3938,10 @@ figcaption {
   }
   .text-span-5 {
     font-size: 17px;
+  }
+  .form-block {
+    margin-right: 29px;
+    margin-left: 31px;
   }
 }
 
