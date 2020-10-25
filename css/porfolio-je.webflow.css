@@ -1898,6 +1898,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   height: 460px;
+  margin-top: 70px;
   padding: 30px 150px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1913,6 +1914,8 @@ figcaption {
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: #13b5f1;
+  background-image: linear-gradient(250deg, #00d2ff, #3a7bd5);
+  box-shadow: 0 10px 20px -1px rgba(0, 210, 255, 0.34);
   color: #fff;
   text-align: left;
 }
@@ -1934,10 +1937,10 @@ figcaption {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
@@ -1954,6 +1957,11 @@ figcaption {
 .heading-jumbo.pop-norm {
   font-family: Poppins, sans-serif;
   font-weight: 400;
+}
+
+.heading-jumbo.work-pgs-jumbo {
+  display: block;
+  text-align: left;
 }
 
 .paragraph-tiny {
@@ -2039,6 +2047,10 @@ figcaption {
   margin-bottom: 100px;
 }
 
+.section.section-branding {
+  margin-bottom: 70px;
+}
+
 .button {
   padding: 12px 25px;
   border-radius: 0px;
@@ -2069,11 +2081,16 @@ figcaption {
 }
 
 .button.cc-white-button {
+  margin-top: 30px;
   padding: 16px 35px;
   background-color: #fff;
+  box-shadow: 0 10px 9px -4px rgba(0, 0, 0, 0.18);
+  -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  font-family: Poppins, sans-serif;
   color: #202020;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 18px;
 }
 
 .button.cc-white-button:hover {
@@ -2097,8 +2114,16 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   opacity: 0.6;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   text-align: left;
+  text-decoration: none;
 }
 
 .divider {
@@ -2152,6 +2177,16 @@ figcaption {
 .navigation-item.w--current:active {
   opacity: 0.7;
   color: #32343a;
+}
+
+.navigation-item.contact-me {
+  margin-left: 20px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: #14b4f1;
+  box-shadow: 0 4px 9px 0 rgba(20, 180, 241, 0.53);
+  color: #fff;
+  font-weight: 600;
 }
 
 .navigation-items {
@@ -2246,10 +2281,10 @@ figcaption {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   text-align: left;
 }
 
@@ -2459,6 +2494,7 @@ figcaption {
   border-color: rgba(0, 0, 0, 0.1);
   background-color: transparent;
   font-family: Poppins, sans-serif;
+  font-weight: 600;
 }
 
 .webflow-link {
@@ -2705,7 +2741,7 @@ figcaption {
   height: 100vh;
   max-height: 100%;
   max-width: 100%;
-  padding: 30px;
+  padding: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2740,10 +2776,24 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   background-color: #1a1b1f;
+  background-image: linear-gradient(245deg, #00d2ff, #3a7bd5);
 }
 
 ._404-content-wrap {
   margin-bottom: 20px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  text-align: center;
 }
 
 .protected-wrap {
@@ -2969,10 +3019,16 @@ figcaption {
 .div-block-3 {
   height: 165px;
   background-color: #00d2ff;
+  box-shadow: 0 8px 9px 0 #000;
 }
 
 .div-block-3._2 {
   background-color: #3a7bd5;
+  box-shadow: 0 8px 15px -3px rgba(58, 123, 213, 0.34);
+}
+
+.div-block-3.light-blue {
+  box-shadow: 0 8px 15px -3px rgba(0, 210, 255, 0.34);
 }
 
 .text-span-5 {
@@ -3067,8 +3123,25 @@ figcaption {
   box-shadow: 0 11px 20px -8px rgba(255, 0, 0, 0.14);
 }
 
+.form-block.form-msc {
+  margin-bottom: 70px;
+}
+
 .link-block-3 {
   text-decoration: none;
+}
+
+.form-branding {
+  margin-top: 70px;
+}
+
+.text-block {
+  font-weight: 600;
+}
+
+.image-5 {
+  width: 100px;
+  margin-bottom: 41px;
 }
 
 @media screen and (max-width: 991px) {
@@ -3103,9 +3176,15 @@ figcaption {
     padding-right: 35px;
     padding-left: 35px;
   }
+  .styleguide-header-wrap {
+    padding-left: 40px;
+  }
   .heading-jumbo {
-    font-size: 56px;
-    line-height: 70px;
+    font-size: 42px;
+    line-height: 45px;
+    text-align: center;
+  }
+  .heading-jumbo.heading-landing-jumbo {
     text-align: left;
   }
   .label.cc-styleguide-label {
@@ -3185,6 +3264,9 @@ figcaption {
   }
   .position-name-text {
     text-align: left;
+  }
+  .work-description {
+    padding-left: 60px;
   }
   .work-experience-grid {
     margin-top: 65px;
@@ -3421,8 +3503,8 @@ figcaption {
   }
   .heading-jumbo {
     margin-bottom: 0px;
-    font-size: 47px;
-    line-height: 64px;
+    font-size: 26px;
+    line-height: 43px;
   }
   .paragraph-tiny.cc-paragraph-tiny-light {
     text-align: center;
@@ -3461,9 +3543,16 @@ figcaption {
   .section.cc-contact {
     padding: 15px;
   }
+  .button.cc-white-button {
+    margin-top: 0px;
+  }
   .paragraph-bigger {
     font-size: 16px;
     line-height: 28px;
+  }
+  .paragraph-bigger.cc-bigger-light {
+    font-size: 13px;
+    line-height: 21px;
   }
   .logo-link {
     padding-left: 0px;
@@ -3627,7 +3716,7 @@ figcaption {
     text-align: center;
   }
   .utility-page-wrap {
-    padding: 15px;
+    padding: 0px;
   }
   ._404-wrap {
     padding: 30px;
@@ -3722,6 +3811,9 @@ figcaption {
   .column-6 {
     background-color: rgba(0, 0, 0, 0.06);
   }
+  .image-5 {
+    margin-bottom: 25px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3747,6 +3839,9 @@ figcaption {
     line-height: 30px;
     text-align: left;
   }
+  .heading-jumbo.poppins-text {
+    font-size: 21px;
+  }
   .label.cc-styleguide-label {
     text-align: left;
   }
@@ -3769,6 +3864,12 @@ figcaption {
     position: static;
     display: none;
     overflow: auto;
+  }
+  .button.cc-white-button {
+    display: none;
+  }
+  .paragraph-bigger.cc-bigger-light {
+    margin-top: 20px;
   }
   .navigation {
     padding-right: 20px;
@@ -3795,6 +3896,9 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+  }
+  .work-description {
+    padding-left: 30px;
   }
   .work-experience-grid {
     margin-bottom: 0px;
@@ -3927,8 +4031,8 @@ figcaption {
     display: block;
   }
   .experience-tablet-mob {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 26px;
+    padding-left: 26px;
     font-size: 12px;
     line-height: 17px;
     font-weight: 400;
@@ -3936,12 +4040,23 @@ figcaption {
   .image {
     margin-bottom: 36px;
   }
+  .column-5 {
+    background-color: transparent;
+    box-shadow: 0 12px 14px -5px rgba(0, 0, 0, 0.07);
+  }
   .text-span-5 {
     font-size: 17px;
+  }
+  .column-6 {
+    background-color: transparent;
+    box-shadow: 0 12px 14px -5px rgba(0, 0, 0, 0.07);
   }
   .form-block {
     margin-right: 29px;
     margin-left: 31px;
+  }
+  .image-5 {
+    display: none;
   }
 }
 
