@@ -310,16 +310,16 @@
   margin-bottom: 100px;
   border-style: solid;
   border-width: 1.5px;
-  border-color: rgba(94, 161, 206, 0.26);
-  background-color: rgba(94, 161, 206, 0.26);
+  border-color: #fff;
+  background-color: rgba(94, 161, 206, 0);
   color: #fff;
 }
 
 .button.call-to-action:hover {
   border-style: solid;
-  border-color: #5ea1ce;
-  background-color: rgba(94, 161, 206, 0.26);
-  color: #abddff;
+  border-color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 .icon-font {
