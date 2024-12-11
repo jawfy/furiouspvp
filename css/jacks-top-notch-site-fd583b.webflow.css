@@ -70,11 +70,15 @@
   font-weight: 600;
 }
 
-.body-text.bold.link {
+.body-text.link {
+  color: #373840cc;
+}
+
+.body-text.link:hover {
   color: #3a5eff;
 }
 
-.body-text.bold.disabled {
+.body-text.disabled {
   color: #37384052;
 }
 
@@ -137,7 +141,7 @@
 }
 
 .opacity {
-  opacity: .8;
+  opacity: .56;
 }
 
 .resume {
@@ -194,4 +198,11 @@
   }
 }
 
+.clients-wrapper {
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    flex-flow: column;
+    display: flex;
+}
+}
 
