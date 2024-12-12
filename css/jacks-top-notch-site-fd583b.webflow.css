@@ -206,3 +206,12 @@
 }
 }
 
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 56px;
+    /* Add vendor prefixes for older browsers */
+    height: : -webkit-56px;
+    height: -moz-56px;
+    height: -ms-56px;
+  }
+}
