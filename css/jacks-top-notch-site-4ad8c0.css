@@ -85,6 +85,10 @@
   opacity: .64;
 }
 
+._48 {
+  opacity: .48;
+}
+
 .jobs-wrapper {
   grid-column-gap: 32px;
   grid-row-gap: 16px;
