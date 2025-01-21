@@ -144,7 +144,7 @@
 
   .jobs-wrapper {
     grid-column-gap: 24px;
-    grid-row-gap: 24px;
+    grid-row-gap: 20px;
   }
 
   .job-wrapper {
