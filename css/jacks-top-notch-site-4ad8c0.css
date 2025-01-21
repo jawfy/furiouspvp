@@ -2,7 +2,7 @@
   grid-column-gap: 56px;
   grid-row-gap: 56px;
   flex-flow: column;
-  width: 724px;
+  width: 70ch;
   margin-left: auto;
   margin-right: auto;
   padding: 72px 24px;
@@ -11,7 +11,7 @@
 
 .title-lockup {
   grid-column-gap: 8px;
-  grid-row-gap: 8px;
+  grid-row-gap: 4px;
   flex-flow: column;
   display: flex;
 }
@@ -48,7 +48,7 @@
 
 .description-lockup {
   grid-column-gap: 24px;
-  grid-row-gap: 24px;
+  grid-row-gap: 20px;
   flex-flow: column;
   display: flex;
 }
@@ -69,7 +69,7 @@
 
 .jobs-wrapper {
   grid-column-gap: 32px;
-  grid-row-gap: 32px;
+  grid-row-gap: 20px;
   flex-flow: column;
   display: flex;
 }
