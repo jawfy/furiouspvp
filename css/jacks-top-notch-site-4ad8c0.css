@@ -53,10 +53,28 @@
   display: flex;
 }
 
+.icon-wrapper {
+  height: 100%;
+  vertical-align: middle;
+  padding: 2px 0 0 12px;
+}
+
 .link {
   color: #06c;
   text-decoration: none;
   transition: all .1s ease-in-out;
+}
+
+.link.icon {
+  color: #000;
+  opacity: .32;
+  text-decoration: none;
+  transition: all .1s ease-in-out;
+  vertical-align: middle;
+}
+
+.link.icon:hover {
+  opacity: 1;
 }
 
 .link:hover {
@@ -69,7 +87,7 @@
 
 .jobs-wrapper {
   grid-column-gap: 32px;
-  grid-row-gap: 20px;
+  grid-row-gap: 16px;
   flex-flow: column;
   display: flex;
 }
@@ -77,6 +95,7 @@
 .job-wrapper {
   justify-content: flex-start;
   align-items: center;
+  vertical-align: middle;
   display: flex;
 }
 
@@ -102,6 +121,11 @@
 @media screen and (max-width: 767px) {
   .container {
     width: 100%;
+  }
+  .icon-wrapper {
+    height: 100%;
+    vertical-align: middle;
+    padding: 2px 0 0 8px;
   }
 }
 
@@ -131,6 +155,13 @@
     grid-column-gap: 8px;
     grid-row-gap: 8px;
     flex-flow: column;
+  }
+
+  .icon-wrapper {
+    height: 100%;
+    vertical-align: middle;
+    padding: 2px 0 0 8px;
+    display: none;
   }
 }
 
