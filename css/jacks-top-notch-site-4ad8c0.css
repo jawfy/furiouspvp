@@ -48,7 +48,7 @@
 
 .description-lockup {
   grid-column-gap: 24px;
-  grid-row-gap: 20px;
+  grid-row-gap: 16px;
   flex-flow: column;
   display: flex;
 }
